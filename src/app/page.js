@@ -1,15 +1,27 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client"
 import Link from 'next/link'
-export default function Home() {
+import Image from 'next/image'
+import { useCallback } from "react";
+import Particles from "react-particles";
+//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
+import Social from './components/social'
+import styles from './page.module.css'
+
+export default function Album() {
+
   return (
     <main className={styles.main}>
+ 
       <div className={styles.description}>
         <p>
           {/* Get started by editing&nbsp; */}
-          <code className={styles.code}>K Singh</code>
+          {/* <code className={styles.code}> */}
+            {/* K Singh */}
+          <Social/>
+          {/* </code> */}
         </p>
-        <div>
+        {/* <div>
           <a
             href="github.com/ksinghofficial"
             target="_blank"
@@ -25,7 +37,8 @@ export default function Home() {
               priority
             />
           </a>
-        </div>
+        </div> */}
+        <Social/>
       </div>
 
       <div className={styles.center}>
@@ -96,5 +109,5 @@ export default function Home() {
         </Link >
       </div>
     </main>
-  )
-}
+   );
+  }
