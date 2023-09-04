@@ -8,7 +8,7 @@ import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSli
 import Social from './components/social'
 import styles from './page.module.css'
 
-export default function Album() {
+export default function Page() {
 
   return (
     <main className={styles.main}>
@@ -16,10 +16,10 @@ export default function Album() {
       <div className={styles.description}>
         <p>
           {/* Get started by editing&nbsp; */}
-          {/* <code className={styles.code}> */}
-            {/* K Singh */}
-          <Social/>
-          {/* </code> */}
+          <code className={styles.code}>
+            K Singh
+         
+          </code>
         </p>
         {/* <div>
           <a
@@ -63,7 +63,7 @@ export default function Album() {
           <h2>
             hire me <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Hire me from your favorite online freelancing website.</p>
         </div>
 </Link>
 <Link href="/contact">
@@ -76,7 +76,7 @@ export default function Album() {
           <h2>
             contact me <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Send your Message to me :)</p>
         </div>
         </Link>
         <Link href="/support">
@@ -89,7 +89,7 @@ export default function Album() {
           <h2>
           support me <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <p>Let's Together we make future open source.</p>
         </div>
         </Link>
         <Link href="/portfolio">
@@ -103,7 +103,7 @@ export default function Album() {
             portfolio <span>-&gt;</span>
           </h2>
           <p>
-           Founder of codnap / STREETSFOODS .
+           Founder of codnap & STREETSFOODS .
           </p>
         </div>
         </Link >
