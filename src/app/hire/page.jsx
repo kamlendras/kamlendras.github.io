@@ -13,16 +13,16 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
+import Linkmui from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
+import Link from 'next/link'
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://ksinghofficial.github.io/">
+      <Linkmui color="inherit" href="https://ksinghofficial.github.io/">
         ksingh
-      </Link>{' '}
+      </Linkmui>{' '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
@@ -82,63 +82,8 @@ export default function Album() {
         <Container sx={{ py: 8 }} maxWidth="md">
 
           <Grid container spacing={4}>
-
           <Grid item xs={12} sm={6} md={4}>
-              <Card
-                sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
-              >
-                <CardMedia
-                  component="div"
-                  sx={{
-                    // 16:9
-                    pt: '40.25%',
-                  }}
-                  image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnpm-assets.fiverrcdn.com%2Fassets%2Flayout%2Ffiverr-og-logo.99c4dbf.png&f=1&nofb=1&ipt=82f0966a0a5f703bb603911e3e1be70908326b78149dc8151164dd1170fee4cb&ipo=images"
-                />
-                <CardContent sx={{ flexGrow: 1 }}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                  Fiverr.
-                  </Typography>
-                  <Typography>
-                    I'm available on Fiverr.
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small">Hire Me</Button>
-                  {/* <Button size="small">Chat With Me</Button> */}
-                </CardActions>
-              </Card>
-
-            </Grid>
-
-            <Grid item xs={12} sm={6} md={4}>
-              <Card
-                sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
-              >
-                <CardMedia
-                  component="div"
-                  sx={{
-                    // 16:9
-                    pt: '56.25%',
-                  }}
-                  image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F04%2FUpwork-Symbol.png&f=1&nofb=1&ipt=e1f5bc3fb57a6e3da870c0c8d51be63256901555085ac82858810efb7b9a2944&ipo=images"
-                />
-                <CardContent sx={{ flexGrow: 1 }}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    UpWork
-                  </Typography>
-                  <Typography>
-                    I'm available on  UpWork.
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small">Hire Me</Button>
-                  {/* <Button size="small">Chat With Me</Button> */}
-                </CardActions>
-              </Card>
-
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Link href="https://www.freelancer.com/u/ksinghofficial">
               <Card
                 sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
               >
@@ -164,6 +109,67 @@ export default function Album() {
                 </CardActions>
               </Card>
 
+            </Link>
+            </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+          <Link href="https://www.fiverr.com/officialksingh">
+              <Card
+                sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+              >
+                <CardMedia
+                  component="div"
+                  sx={{
+                    // 16:9
+                    pt: '40.25%',
+                  }}
+                  image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnpm-assets.fiverrcdn.com%2Fassets%2Flayout%2Ffiverr-og-logo.99c4dbf.png&f=1&nofb=1&ipt=82f0966a0a5f703bb603911e3e1be70908326b78149dc8151164dd1170fee4cb&ipo=images"
+                />
+                <CardContent sx={{ flexGrow: 1 }}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                  Fiverr.
+                  </Typography>
+                  <Typography>
+                    I'm available on Fiverr.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">Hire Me</Button>
+                  {/* <Button size="small">Chat With Me</Button> */}
+                </CardActions>
+              </Card>
+
+            </Link>
+            </Grid>
+
+            
+            
+            <Grid item xs={12} sm={6} md={4}>
+            <Link href="https://www.upwork.com/freelancers/~012f635da79c04b0f1">
+              <Card
+                sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+              >
+                <CardMedia
+                  component="div"
+                  sx={{
+                    // 16:9
+                    pt: '56.25%',
+                  }}
+                  image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F04%2FUpwork-Symbol.png&f=1&nofb=1&ipt=e1f5bc3fb57a6e3da870c0c8d51be63256901555085ac82858810efb7b9a2944&ipo=images"
+                />
+                <CardContent sx={{ flexGrow: 1 }}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    UpWork
+                  </Typography>
+                  <Typography>
+                    I'm available on  UpWork.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">Hire Me</Button>
+                  {/* <Button size="small">Chat With Me</Button> */}
+                </CardActions>
+              </Card>
+              </Link>
             </Grid>
           </Grid>
         </Container>
