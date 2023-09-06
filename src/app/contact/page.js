@@ -12,8 +12,8 @@ import StepLabel from '@mui/material/StepLabel';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
-import AddressForm from './AddressForm';
-import PaymentForm from './PaymentForm';
+import You from './you';
+import Message from './message';
 
 
 function Copyright() {
@@ -21,7 +21,7 @@ function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        ksingh
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -34,11 +34,11 @@ const steps = ['You', 'Message'];
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return <AddressForm />;
+      return <You />;
     case 1:
-      return <PaymentForm />;
+      return <Message />;
     case 2:
-      return <PaymentForm  />;
+      return <x />;
     default:
       throw new Error('Unknown step');
   }
@@ -109,7 +109,7 @@ export default function Checkout() {
                   onClick={handleNext}
                   sx={{ mt: 3, ml: 1 }}
                 >
-                  {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                  {activeStep === steps.length - 1 ? 'send' : 'Next'}
                 </Button>
               </Box>
             </React.Fragment>
