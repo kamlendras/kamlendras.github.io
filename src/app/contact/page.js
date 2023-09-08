@@ -88,7 +88,7 @@ export default function Checkout() {
           {activeStep === steps.length ? (
             <React.Fragment>
               <Typography variant="h5" gutterBottom>
-                Thank you for your Message 🎉.
+                Thank you for your Message <img src="/cele.svg" height={29} width={29} />.
               </Typography>
               <Typography variant="subtitle1">
                I will replay you as soon as I read your Message :)
