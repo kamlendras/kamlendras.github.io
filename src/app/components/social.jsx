@@ -31,45 +31,45 @@ const Social = () => {
   
 </div>
 </Link></span> */}
-<span> <Link href="https://twitter.com/cod_nap" passHref legacyBehavior>
+<span> <Link href="https://liberapay.com/KSingh" passHref legacyBehavior>
 <div className={styles.FooterLinkt}>
   
-    <img src="/social/twitter.svg" height={26} width={26} />
+    <img src="/social/libra.svg" height={35} width={35} />
     <span style={{ marginLeft: "10px" }}></span>
   
 </div>
 </Link></span>
-<span>  <Link href="https://pinterest.com/cod_nap/" passHref legacyBehavior>
+<span>  <Link href="https://www.patreon.com/KSingh" passHref legacyBehavior>
 <div className={styles.FooterLinkl}>
   
-    <img src="/social/pint.svg" height={26} width={26} />
+    <img src="/social/pato.svg" height={35} width={35} />
     <span style={{ marginLeft: "10px" }}></span>
   
 </div>
 </Link></span>
-<span>  <Link href="https://www.snapchat.com/cod_nap/" passHref legacyBehavior>
+<span>  <Link href="https://www.buymeacoffee.com/ksingh" passHref legacyBehavior>
 <div className={styles.FooterLinkl}>
   
-    <img src="/social/LinkedIn-Blue-26@2x.png" 
-    // height={26} width={26} 
+    <img src="/social/co.svg" 
+    height={35} width={35} 
     />
     <span style={{ marginLeft: "10px" }}></span>
   
 </div>
 </Link></span>
-<span>  <Link href="https://www.linkedin.com/in/codnap/" passHref legacyBehavior>
+<span>  <Link href="https://mstdn.social/@ksingh" passHref legacyBehavior>
 <div className={styles.FooterLinkl}>
   
-    <img src="/social/linkedin.svg" height={26} width={26} />
+    <img src="/social/mastodon.svg" height={35} width={35} />
     <span style={{ marginLeft: "10px" }}></span>
   
 </div>
 </Link></span>
 <span>
-<Link href="https://www.github.com/codnap/" passHref legacyBehavior>
+<Link href="https://www.github.com/ksinghofficial/" passHref legacyBehavior>
   <div className={styles.FooterLink}>
     
-      <img src="/social/githubwhite.svg" height={26} width={26} />
+      <img src="/social/github.svg" height={35} width={35} />
       <span style={{ marginLeft: "10px" }}></span>
     
   </div>
