@@ -49,7 +49,8 @@
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
+  /* background: rgba(var(--card-rgb), 0); */
+  color: #ffffff;
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
 }
@@ -57,16 +58,21 @@
 .card span {
   display: inline-block;
   transition: transform 200ms;
+  color: #ffffff;
+ 
 }
 
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
+  color: #ffffff;
+  z-index: 10000;
 }
 
 .card p {
+  color: #ffffff;
   margin: 0;
-  opacity: 0.6;
+  opacity: 1;
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
@@ -140,10 +146,12 @@
 
   .card {
     padding: 1rem 2.5rem;
+   
   }
 
   .card h2 {
     margin-bottom: 0.5rem;
+  
   }
 
   .center {

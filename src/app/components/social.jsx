@@ -17,7 +17,7 @@ const Social = () => {
 </Link>
   <Link href="https://www.buymeacoffee.com/ksingh" >
   
-    <img src="/social/co.svg" 
+    <img src="/social/cob.svg" 
     height={35} width={35} 
     />
     
@@ -30,7 +30,7 @@ const Social = () => {
 <Link href="https://www.github.com/ksinghofficial/" >
   
     
-      <img src="/social/github.svg" height={35} width={35} />
+      <img src="/social/githubwhite.svg" height={35} width={35} />
       
 </Link>
 

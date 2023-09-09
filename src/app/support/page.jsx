@@ -1,57 +1,80 @@
+"use client"
+import fish from "./fish.json";
+import Lottie from "lottie-react";
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-
+import Link from 'next/link'
+import Stack from '@mui/material/Stack';
+import MLink from '@mui/material/Link';
+import styles from "../styles/support.module.css"
+const style = {
+  height: 230,
+};
 export default function Types() {
   return (
-    <Box sx={{ width: '100%', maxWidth: 500 }}>
-      <Typography variant="h1" gutterBottom>
-        h1. Heading
+   <div className={styles.one}>
+       <Typography variant="h4" gutterBottom>
+       Get Involved
       </Typography>
-      <Typography variant="h2" gutterBottom>
-        h2. Heading
+    
+      <Typography variant="body1" gutterBottom>
+     There are many methords by which you can support me ,
+     Whether you have ideas, translations, design changes, code cleaning, or real heavy code changes, help is always welcome. The more is done the better it gets!
+If you're interested in contributing, you can browse the issues or create a new one to discuss your feature idea. Every contribution is very welcome.
+
+     You can contribute to one of my originations
+   <MLink  href="https://github.com/codnap"  underline="always">  github.com/codnap </MLink> and 
+   <MLink  href="https://github.com/streetsfoods"  underline="always">  github.com/streetsfoods</MLink> .
+     
+
+
       </Typography>
-      <Typography variant="h3" gutterBottom>
-        h3. Heading
-      </Typography>
+    
+    
       <Typography variant="h4" gutterBottom>
-        h4. Heading
-      </Typography>
-      <Typography variant="h5" gutterBottom>
-        h5. Heading
-      </Typography>
-      <Typography variant="h6" gutterBottom>
-        h6. Heading
-      </Typography>
-      <Typography variant="subtitle1" gutterBottom>
-        subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-        blanditiis tenetur
-      </Typography>
-      <Typography variant="subtitle2" gutterBottom>
-        subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-        blanditiis tenetur
+        Join Matrix Rooms
       </Typography>
       <Typography variant="body1" gutterBottom>
-        body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-        blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-        neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-        quasi quidem quibusdam.
+      You can join matrix chat rooms of <MLink  href="https://matrix.to/#/#codnap:matrix.org"  underline="always">  #codnap.matrix.org  </MLink> <br/>
+      You can join matrix chat rooms of  <MLink  href="https://matrix.to/#/#SFI:matrix.org"  underline="always"> #SFI.matrix.org </MLink> 
       </Typography>
-      <Typography variant="body2" gutterBottom>
-        body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-        blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-        neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-        quasi quidem quibusdam.
+      <Typography variant="h4" gutterBottom>
+        Donate
       </Typography>
-      <Typography variant="button" display="block" gutterBottom>
-        button text
+     
+      <Typography variant="h6" gutterBottom>
+      If you like this project, please consider donating so I can keep this project running forever!
       </Typography>
-      <Typography variant="caption" display="block" gutterBottom>
-        caption text
-      </Typography>
-      <Typography variant="overline" display="block" gutterBottom>
-        overline text
-      </Typography>
-    </Box>
+      <Stack direction="row" spacing={2}>
+      <Link href="https://www.patreon.com/KSingh" >
+  
+    <img src="/pat.png" 
+    height={80} 
+    // width={35} 
+    />
+    
+</Link>
+
+<Link href="https://www.buymeacoffee.com/ksingh" >
+  
+  <img src="bmc.svg" 
+  height={80} 
+  // width={35} 
+  />
+  
+</Link>
+<Link href="https://liberapay.com/KSingh" >
+<img src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge" 
+height={80} 
+// width={35} 
+/>
+
+
+</Link>
+</Stack>
+<Lottie animationData={fish} loop={true}
+       style={style} />
+    </div>
   );
 }
