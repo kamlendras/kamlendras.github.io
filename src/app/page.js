@@ -13,29 +13,12 @@ export default function Page() {
  
       <div className={styles.description}>
         <p>
-          {/* Get started by editing&nbsp; */}
           <code className={styles.code}>
             K Singh
          
           </code>
         </p>
-        {/* <div>
-          <a
-            href="github.com/ksinghofficial"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="./icon.svg"
-              alt="ksingh"
-              className={styles.vercelLogo}
-              width={50}
-              height={50}
-              priority
-            />
-          </a>
-        </div> */}
+        
         <Social/>
       </div>
 
@@ -43,7 +26,7 @@ export default function Page() {
         <Image
           className={styles.logo}
           src="./icon.svg"
-          alt="Next.js Logo"
+          alt="ksingh"
           width={200}
           height={200}
           priority
