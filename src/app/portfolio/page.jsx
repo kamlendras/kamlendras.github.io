@@ -1,3 +1,4 @@
+"use client"
 import React   from "react";
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
@@ -13,7 +14,12 @@ import MLink from "@mui/material/Link";
 import styles from '../styles/support.module.css'
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
+import Lottie from "lottie-react";
+import bird from "./bird.json";
 import Link from 'next/link'
+const style = {
+  height: 200,
+};
 export default function Types() {
   return (
     <div>
@@ -175,6 +181,7 @@ export default function Types() {
 </Container>
    
     </div>
+    <Lottie animationData={bird} loop={true} style={style} />
     </div>
   );
 }
