@@ -825,7 +825,7 @@ export default function Page() {
               portfolio <span>-&gt;</span>
             </h2>
             <p>
-              Founder of codnap & STREETSFOODS .
+              Founder of codnap & SFI.
             </p>
           </div>
         </Link >

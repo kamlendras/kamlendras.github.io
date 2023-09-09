@@ -14,7 +14,10 @@ const style = {
 };
 export default function Types() {
   return (
+<div>
+   
     <div className={styles.one}>
+      
       <Typography variant="h4" gutterBottom>
         Get Involved
       </Typography>
@@ -91,6 +94,7 @@ export default function Types() {
       </Grid>
 
       <Lottie animationData={fish} loop={true} style={style} />
+      </div>
     </div>
   );
 }
