@@ -1,5 +1,5 @@
 "use client"
-import * as React from 'react';
+import React, { useState, useEffect } from "react";
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
@@ -20,7 +20,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Linkmui color="inherit" href="https://ksinghofficial.github.io/">
+      <Linkmui color="inherit" href="https://ksingh.is-a.dev/">
         ksingh
       </Linkmui>{' '}
       {new Date().getFullYear()}
@@ -33,6 +33,8 @@ const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
+
+
 
 export default function Album() {
   return (
@@ -74,11 +76,16 @@ export default function Album() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Hire NOW</Button>
+              <Link href="#hirenow" >
+              <Button  variant="contained">Hire NOW</Button>
+              
+              </Link>
+             
               <Button variant="outlined">GIVE FEEDBACK</Button>
             </Stack>
           </Container>
         </Box>
+        <div id="hirenow">
         <Container sx={{ py: 8 }} maxWidth="md">
 
           <Grid container spacing={4}>
@@ -173,6 +180,7 @@ export default function Album() {
             </Grid>
           </Grid>
         </Container>
+        </div>
       </main>
       {/* Footer */}
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
@@ -189,6 +197,7 @@ export default function Album() {
         </Typography> */}
         <Copyright />
       </Box>
+     
       {/* End footer */}
     </ThemeProvider>
   );
