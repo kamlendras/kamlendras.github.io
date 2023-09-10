@@ -31,6 +31,7 @@
     "react-tsparticles": "^2.12.2",
     "sass": "^1.66.1",
     "scss": "^0.2.4",
+    "three": "^0.156.1",
     "tsparticles": "^2.12.0"
   }
 }

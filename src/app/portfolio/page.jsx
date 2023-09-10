@@ -59,7 +59,7 @@ export default function Types() {
 
 <Grid container spacing={4}>
 <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://www.freelancer.com/u/ksinghofficial">
+  <Link href="https://codnap.github.io/">
     <Card
       sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -69,7 +69,7 @@ export default function Types() {
           // 16:9
           pt: '40.25%',
         }}
-        image="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcustomercarecontacts.com%2Fwp-content%2Fuploads%2F2017%2F07%2Ffreelancer-logo.jpg&f=1&nofb=1&ipt=a46861a67f5bab20a0261300d1cd8817b9916618fed7cf745bc6aa8c95d5729b&ipo=images"
+        image="/codnap1.png"
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
@@ -80,7 +80,8 @@ export default function Types() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Source Code</Button>
+      
+      <Link href="https://github.com/codnap/codnap.github.io">   <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>
     </Card>
@@ -88,7 +89,7 @@ export default function Types() {
   </Link>
   </Grid>
 <Grid item xs={12} sm={6} md={6}>
-<Link href="https://www.fiverr.com/officialksingh">
+<Link href="https://streetsfoods.github.io/">
     <Card
       sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -98,7 +99,7 @@ export default function Types() {
           // 16:9
           pt: '40.25%',
         }}
-        image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnpm-assets.fiverrcdn.com%2Fassets%2Flayout%2Ffiverr-og-logo.99c4dbf.png&f=1&nofb=1&ipt=82f0966a0a5f703bb603911e3e1be70908326b78149dc8151164dd1170fee4cb&ipo=images"
+        image="/sf.png"
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
@@ -109,7 +110,8 @@ export default function Types() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Source Code</Button>
+      <Link href="https://github.com/streetsfoods/streetsfoods.github.io"> 
+        <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>
     </Card>
@@ -120,7 +122,7 @@ export default function Types() {
   
   
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://www.upwork.com/freelancers/~012f635da79c04b0f1">
+  <Link href="https://github.com/streetsfoods/streetsfoodsmobile">
     <Card
       sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -130,7 +132,7 @@ export default function Types() {
           // 16:9
           pt: '56.25%',
         }}
-        image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F04%2FUpwork-Symbol.png&f=1&nofb=1&ipt=e1f5bc3fb57a6e3da870c0c8d51be63256901555085ac82858810efb7b9a2944&ipo=images"
+        image="/sfm.png"
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
@@ -148,7 +150,7 @@ export default function Types() {
     </Link>
   </Grid>
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://www.upwork.com/freelancers/~012f635da79c04b0f1">
+  <Link href="https://github.com/codnap/codnapmobile">
     <Card
       sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -158,7 +160,7 @@ export default function Types() {
           // 16:9
           pt: '56.25%',
         }}
-        image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F04%2FUpwork-Symbol.png&f=1&nofb=1&ipt=e1f5bc3fb57a6e3da870c0c8d51be63256901555085ac82858810efb7b9a2944&ipo=images"
+        image="/codnap2.png"
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
