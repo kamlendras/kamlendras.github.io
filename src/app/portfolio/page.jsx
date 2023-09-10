@@ -186,8 +186,8 @@ export default function Types() {
 
 </Container>
    
-    </div>
     <Lottie animationData={bird} loop={true} style={style} />
+    </div>
     </div>
   );
 }

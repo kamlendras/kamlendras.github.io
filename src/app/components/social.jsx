@@ -10,17 +10,18 @@ const Social = () => {
 
 
 </Link>
-  <Link href="https://www.patreon.com/KSingh" >
-  
-    <img src="/social/pato.svg" height={35} width={35} />
-    
-</Link>
+
   <Link href="https://www.buymeacoffee.com/ksingh" >
   
     <img src="/social/cob.svg" 
     height={35} width={35} 
     />
     
+</Link>
+<Link href="https://matrix.to/#/@ksingh:matrix.org" >
+<img src="/social/matrix.svg" height={35} width={35} />
+
+
 </Link>
  <Link href="https://mstdn.social/@ksingh" >
     <img src="/social/mastodon.svg" height={35} width={35} />
@@ -33,7 +34,11 @@ const Social = () => {
       <img src="/social/githubwhite.svg" height={35} width={35} />
       
 </Link>
-
+{/* <Link href="https://www.patreon.com/KSingh" >
+  
+  <img src="/social/pato.svg" height={35} width={35} />
+  
+</Link> */}
 
 
 
