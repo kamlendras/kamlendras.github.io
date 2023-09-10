@@ -68,7 +68,7 @@ export default function Album() {
               The Best Dev On The Planet.
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              “No one in the brief history of computing has ever written a piece of perfect software. It’s unlikely that you’ll be the first.”
+"As after viewing my Portfolio if ur still not hireing me then ur in Big Loss..." ~ ksingh
             </Typography>
             <Stack
               sx={{ pt: 4 }}

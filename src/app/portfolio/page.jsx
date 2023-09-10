@@ -23,37 +23,41 @@ const style = {
 export default function Types() {
   return (
     <div>
-    <Toolbar>
-        
+     <AppBar position="relative">
+        <Toolbar>
+          {/* <CameraIcon sx={{ mr: 2 }} /> */}
           <Typography variant="h6" color="inherit" noWrap>
-            Portfolio
+          Portfolio
           </Typography>
         </Toolbar>
-    <div className={styles.one}>
+      </AppBar>
+    <div className={styles.two}>
      
      
      
-      <Typography variant="h5" gutterBottom>
+      {/* <Typography variant="h5" gutterBottom>
         Email : KSinghofficial@proton.me
-      </Typography>
+      </Typography> */}
  
       <Typography variant="body1" gutterBottom>
-       Hi there,
-       I am founder of codnap and SFI.<br/>
+       Hi there,<br/>
+       I am founder of codnap and SFI.
+       <ul><li>
        <MLink href="https://github.com/codnap" underline="always">
           {" "}
           Github.com/codnap{" "}
-        </MLink>{" "}
-        <br/>
-        <MLink href="https://github.com/streetsfoods" underline="always">
+        </MLink>{" "}</li>
+        
+        <li>  <MLink href="https://github.com/streetsfoods" underline="always">
           {" "}
           Github.com/streetsfoods
-        </MLink>{" "}<br/>
+        </MLink>{" "}</li> <li> 
         <MLink href="https://github.com/ksinghofficial" underline="always">
           {" "}
-          Github.com/ksinghofficial
+           Github.com/ksinghofficial
         </MLink>
-        
+        </li>
+        </ul>
       </Typography>
       <Container sx={{ py: 8 }} maxWidth="md">
 

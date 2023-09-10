@@ -58,7 +58,7 @@ export default function Checkout() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar
+      {/* <AppBar
         position="absolute"
         color="default"
         elevation={0}
@@ -68,6 +68,14 @@ export default function Checkout() {
         }}
       >
         <Toolbar>
+          <Typography variant="h6" color="inherit" noWrap>
+            Contact Me
+          </Typography>
+        </Toolbar>
+      </AppBar> */}
+      <AppBar position="relative">
+        <Toolbar>
+          {/* <CameraIcon sx={{ mr: 2 }} /> */}
           <Typography variant="h6" color="inherit" noWrap>
             Contact Me
           </Typography>
