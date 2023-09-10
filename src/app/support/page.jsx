@@ -23,7 +23,7 @@ export default function Types() {
       </Typography>
 
       <Typography variant="body1" gutterBottom>
-        There are many methords by which you can support me , Whether you have
+        There are several methords by which you can support me , Whether you have
         ideas, translations, design changes, code cleaning, or real heavy code
         changes, help is always welcome. The more is done the better it gets! If
         you're interested in contributing, you can browse the issues or create a

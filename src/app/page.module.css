@@ -11,10 +11,10 @@
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  /* font-size: 0.85rem; */
+  font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
-  /* z-index: 2; */
+  z-index: 1;
   font-family: var(--font-mono);
 }
 
@@ -49,7 +49,7 @@
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
-  /* background: rgba(var(--card-rgb), 0); */
+  background: rgba(var(--card-rgb), 0);
   color: #ffffff;
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
@@ -202,11 +202,11 @@
     inset: auto 0 0;
     padding: 2rem;
     height: 200px;
-    /* background: linear-gradient(
+    background: linear-gradient(
       to bottom,
       transparent 0%,
       rgb(var(--background-end-rgb)) 40%
-    ); */
+    );
     z-index: 10;
   }
 }
