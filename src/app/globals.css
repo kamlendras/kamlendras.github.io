@@ -104,3 +104,10 @@ a {
     color-scheme: dark;
   }
 }
+
+.link{
+  z-index: 10000;
+}
+.particle{
+  z-index: -10;
+}

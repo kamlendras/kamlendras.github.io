@@ -27,24 +27,27 @@ const Social = () => {
 
 </Link> */}
 
-  <div onClick={handleClickOpen} >
+  <Link 
+  onClick={handleClickOpen} className="link"
+   href="/">
   
     <img src="/mail.svg" 
-    height={35} width={35} 
+    height={35} 
+    width={35} 
     />
     
-</div>
-<Link href="https://matrix.to/#/@ksingh:matrix.org" >
+</Link>
+<Link href="https://matrix.to/#/@ksingh:matrix.org" className="link" >
 <img src="/social/matrix.svg" height={35} width={35} />
 
 
 </Link>
- <Link href="https://mstdn.social/@ksingh" >
+ <Link href="https://mstdn.social/@ksingh" className="link">
     <img src="/social/mastodon.svg" height={35} width={35} />
 
 </Link>
 
-<Link href="https://www.github.com/ksinghofficial/" >
+<Link href="https://www.github.com/ksinghofficial/"className="link" >
   
     
       <img src="/social/githubwhite.svg" height={35} width={35} />

@@ -1,3 +1,4 @@
+
 .main {
   display: flex;
   flex-direction: column;
@@ -23,9 +24,11 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  z-index: 10000;
 }
 
 .description p {
+  z-index: 10000;
   position: relative;
   margin: 0;
   padding: 1rem;
@@ -56,6 +59,7 @@
 }
 
 .card span {
+  z-index: 1000;
   display: inline-block;
   transition: transform 200ms;
   color: #ffffff;
@@ -63,6 +67,7 @@
 }
 
 .card h2 {
+  z-index: 1000;
   font-weight: 600;
   margin-bottom: 0.7rem;
   color: #ffffff;
@@ -70,6 +75,7 @@
 }
 
 .card p {
+  z-index: 1000;
   color: #ffffff;
   margin: 0;
   opacity: 1;
@@ -112,6 +118,7 @@
 
 .logo {
   position: relative;
+  z-index: 100000;
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
