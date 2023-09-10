@@ -105,7 +105,7 @@ export default function Album() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <CssBaseline />
-      <AppBar position="relative">
+      <AppBar position="relative" color="success">
         <Toolbar>
           {/* <CameraIcon sx={{ mr: 2 }} /> */}
           <Typography variant="h6" color="inherit" noWrap>
@@ -148,10 +148,10 @@ export default function Album() {
               justifyContent="center"
             >
               <Link href="#hirenow">
-                <Button variant="contained">Hire NOW</Button>
+                <Button color="success" variant="contained">Hire NOW</Button>
               </Link>
 
-              <Button onClick={handleClickOpen} variant="outlined">GIVE FEEDBACK</Button>
+              <Button color="success" onClick={handleClickOpen} variant="outlined">GIVE FEEDBACK</Button>
             </Stack>
           </Container>
         </Box>
@@ -182,7 +182,7 @@ export default function Album() {
                       <Typography>I'm available on freelancer.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button size="small">Hire Me</Button>
+                      <Button color="success" size="small">Hire Me</Button>
                       {/* <Button size="small">Chat With Me</Button> */}
                     </CardActions>
                   </Card>
@@ -212,7 +212,7 @@ export default function Album() {
                       <Typography>I'm available on Fiverr.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button size="small">Hire Me</Button>
+                      <Button color="success" size="small">Hire Me</Button>
                       {/* <Button size="small">Chat With Me</Button> */}
                     </CardActions>
                   </Card>
@@ -243,7 +243,7 @@ export default function Album() {
                       <Typography>I'm available on UpWork.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button size="small">Hire Me</Button>
+                      <Button color="success" size="small">Hire Me</Button>
                       {/* <Button size="small">Chat With Me</Button> */}
                     </CardActions>
                   </Card>
@@ -279,7 +279,7 @@ export default function Album() {
         </DialogContent>
         <DialogActions>
           
-          <Button onClick={handleClose} autoFocus>
+          <Button onClick={handleClose} color="success" autoFocus>
             close
           </Button>
         </DialogActions>

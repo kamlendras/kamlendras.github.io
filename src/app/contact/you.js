@@ -14,6 +14,7 @@ export default function You() {
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
           <TextField
+          color="success"
             required
             id="firstName"
             name="firstName"
@@ -25,6 +26,7 @@ export default function You() {
         </Grid>
         <Grid item xs={12} sm={6}>
           <TextField
+          color="success"
             required
             id="lastName"
             name="lastName"
@@ -36,6 +38,7 @@ export default function You() {
         </Grid>
         <Grid item xs={12}>
           <TextField
+          color="success"
             required
             id="address1"
             name="address1"

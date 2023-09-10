@@ -18,11 +18,11 @@ export default function Types() {
    
     <div className={styles.one}>
       
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4"color="white" gutterBottom>
         Get Involved
       </Typography>
 
-      <Typography variant="body1" gutterBottom>
+      <Typography variant="body1" color="white" gutterBottom>
         There are several methords by which you can support me , Whether you have
         ideas, translations, design changes, code cleaning, or real heavy code
         changes, help is always welcome. The more is done the better it gets! If
@@ -41,10 +41,10 @@ export default function Types() {
         .
       </Typography>
 
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" color="white" gutterBottom>
         Join Matrix Rooms
       </Typography>
-      <Typography variant="body1" gutterBottom>
+      <Typography color="white" variant="body1" gutterBottom>
         You can join matrix chat rooms of{" "}
         <MLink href="https://matrix.to/#/#codnap:matrix.org" underline="always">
           {" "}
@@ -57,21 +57,22 @@ export default function Types() {
           #SFI.matrix.org{" "}
         </MLink>
       </Typography>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" color="white" gutterBottom>
         Donate
       </Typography>
 
-      <Typography variant="h6" gutterBottom>
+      <Typography variant="h6" color="white" gutterBottom>
         If you like this project, please consider donating so I can keep this
         project running forever!
       </Typography>
 
       <Grid container spacing={0}>
-        <Grid item xs={12} md={12} lg={4}>
+        <Grid item xs={12} md={12} lg={3.2}>
           <Link href="https://www.patreon.com/KSingh">
             <img
               src="/pat.png"
               height={80}
+              width={'100%'}
             />
           </Link>
         </Grid>
@@ -80,14 +81,16 @@ export default function Types() {
             <img
               src="bmc.svg"
               height={80}
+              width={'100%'}
             />
           </Link>
         </Grid>
-        <Grid item xs={12} md={12} lg={3}>
+        <Grid item xs={12} md={12} lg={3.8}>
           <Link href="https://liberapay.com/KSingh">
             <img
               src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge"
               height={80}
+              width={'100%'}
             />
           </Link>
         </Grid>

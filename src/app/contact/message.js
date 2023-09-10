@@ -13,6 +13,7 @@ export default function Message() {
       </Typography>
       <Grid item xs={12}>
       <TextField
+      color="success"
           id="standard-multiline-static"
           label="Type Something Here."
           multiline

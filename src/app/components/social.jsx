@@ -43,7 +43,7 @@ const Social = () => {
 
 </Link>
  <Link href="https://mstdn.social/@ksingh" className="link">
-    <img src="/social/mastodon.svg" height={35} width={35} />
+    <img src="/social/mass.svg" height={35} width={35} />
 
 </Link>
 

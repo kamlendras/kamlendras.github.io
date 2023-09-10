@@ -4,18 +4,36 @@ import Image from "next/image";
 import Social from "./components/social";
 import styles from "./page.module.css";
 import ParticlesBackground from "./components/ParticlesBackground";
+import Typography from '@mui/material/Typography';
+import Toolbar from '@mui/material/Toolbar';
+import AppBar from '@mui/material/AppBar';
+import { createTheme } from '@mui/material/styles';
+import { grey } from '@mui/material/colors';
+
+const p = grey[900];
 export default function Page() {
   return (
     <div>
+      
+      <AppBar position="fixed" className="zip" color="success">
+        <Toolbar>
+        
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            K Singh
+          </Typography>
+        
+          <Social />
+        </Toolbar>
+      </AppBar>
       <main className={styles.main}>
      
-        <div className={styles.description}>
+        {/* <div className={styles.description}>
           <p>
             <code className={styles.code}>K Singh</code>
           </p>
 
           <Social />
-        </div>
+        </div> */}
 
         <div className={styles.center}>
           <Image
@@ -27,7 +45,7 @@ export default function Page() {
             priority
           />
         </div>
-
+<div className="zip">
         <div className={styles.grid}>
           <Link href="/hire">
             <div
@@ -78,8 +96,9 @@ export default function Page() {
             </div>
           </Link>
         </div>
+        </div>
       </main>
-      {/* <ParticlesBackground className="particle" /> */}
+      <ParticlesBackground className="particle" />
     </div>
   );
 }

@@ -18,9 +18,9 @@ import Message from './message';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography variant="body2" color="white" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
+      <Link color="inherit" href="https://ksingh.is-a.dev/">
         ksingh
       </Link>{' '}
       {new Date().getFullYear()}
@@ -58,24 +58,10 @@ export default function Checkout() {
   return (
     <React.Fragment>
       <CssBaseline />
-      {/* <AppBar
-        position="absolute"
-        color="default"
-        elevation={0}
-        sx={{
-          position: 'relative',
-          borderBottom: (t) => `1px solid ${t.palette.divider}`,
-        }}
-      >
+
+      <AppBar color="success" position="relative">
         <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
-            Contact Me
-          </Typography>
-        </Toolbar>
-      </AppBar> */}
-      <AppBar position="relative">
-        <Toolbar>
-          {/* <CameraIcon sx={{ mr: 2 }} /> */}
+       
           <Typography variant="h6" color="inherit" noWrap>
             Contact Me
           </Typography>
@@ -84,7 +70,7 @@ export default function Checkout() {
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
          
-          <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
+          <Stepper  activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
             {steps.map((label) => (
               <Step key={label}>
                 <StepLabel>{label}</StepLabel>
@@ -105,12 +91,12 @@ export default function Checkout() {
               {getStepContent(activeStep)}
               <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                 {activeStep !== 0 && (
-                  <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
+                  <Button color="success" onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
                     Back
                   </Button>
                 )}
 
-                <Button
+                <Button color="success"
                   variant="contained"
                   onClick={handleNext}
                   sx={{ mt: 3, ml: 1 }}

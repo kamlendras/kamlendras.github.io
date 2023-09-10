@@ -4,10 +4,7 @@
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-  /* --foreground-rgb: 0, 0, 0; */
-  /* --background-start-rgb: #000000; */
-  /* --background-end-rgb: #0000; */
+  background-color: #000000;
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,
@@ -105,9 +102,6 @@ a {
   }
 }
 
-.link{
-  z-index: 10000;
-}
-.particle{
-  z-index: -10;
+.zip{
+  z-index: 999999999;
 }

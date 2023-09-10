@@ -23,7 +23,7 @@ const style = {
 export default function Types() {
   return (
     <div>
-     <AppBar position="relative">
+     <AppBar position="relative" color="success">
         <Toolbar>
           {/* <CameraIcon sx={{ mr: 2 }} /> */}
           <Typography variant="h6" color="inherit" noWrap>
@@ -39,7 +39,7 @@ export default function Types() {
         Email : KSinghofficial@proton.me
       </Typography> */}
  
-      <Typography variant="body1" gutterBottom>
+      <Typography color="white" variant="body1" gutterBottom>
        Hi there,<br/>
        I am founder of codnap and SFI.
        <ul><li>
