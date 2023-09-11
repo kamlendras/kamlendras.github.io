@@ -101,7 +101,9 @@ a {
     color-scheme: dark;
   }
 }
-
+.zipv{
+  visibility: hidden;
+}
 .zip{
   z-index: 9999;
 }

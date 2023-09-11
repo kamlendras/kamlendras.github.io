@@ -41,12 +41,19 @@ export default function Page() {
       </ThemeProvider>
       <main className={styles.main}>
      
-      
+      <Image
+       className={styles.center}
+            src="./icon.svg"
+            alt="ksingh"
+            width={200}
+            height={200}
+            priority
+          />
     
             <Grid container spacing={2}className="meone"  align="center">
 
             <Grid item xs={12} md={6} lg={6} >
-            <Typed
+            {/* <Typed
             className="typed"
                     strings={[
                       'Hi there.',
@@ -60,14 +67,14 @@ export default function Page() {
                     typeSpeed={40}
                  backSpeed={50}
                  loop
-                />
+                /> */}
                 
 
             </Grid>
 
             <Grid item xs={12} md={6} lg={3}>
             <Image
-       className="zip"
+       className="zipv"
             src="./icon.svg"
             alt="ksingh"
             width={200}
