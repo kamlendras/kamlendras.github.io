@@ -56,8 +56,7 @@ export default function Checkout() {
   };
 
   return (
-    <React.Fragment>
-      <CssBaseline />
+    <div>
 
       <AppBar color="success" position="relative">
         <Toolbar>
@@ -67,6 +66,7 @@ export default function Checkout() {
           </Typography>
         </Toolbar>
       </AppBar>
+
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
          
@@ -109,6 +109,6 @@ export default function Checkout() {
         </Paper>
         <Copyright />
       </Container>
-    </React.Fragment>
+    </div>
   );
 }

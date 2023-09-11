@@ -103,5 +103,19 @@ a {
 }
 
 .zip{
+  z-index: 9999;
+}
+.zipp{
+  z-index: 999999;
+}
+.meone{
   z-index: 999999999;
+  margin-top: 12rem;
+ 
+}
+.typed{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 40px;
+width: 50%;
 }

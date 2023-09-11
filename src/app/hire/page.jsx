@@ -75,7 +75,7 @@ const style = {
 };
 function Copyright() {
   return (
-    <Typography variant="body2" color="white" align="center">
+    <Typography variant="body2"  align="center">
       {"Copyright © "}
       <Linkmui color="inherit" href="https://ksingh.is-a.dev/">
         ksingh
