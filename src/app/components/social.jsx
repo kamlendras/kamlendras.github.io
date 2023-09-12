@@ -42,7 +42,7 @@ const Social = () => {
 
 
 </Link>
- <Link href="https://mstdn.social/@ksingh" className="link">
+ <Link href="https://fosstodon.org/@ksingh" className="link">
     <img src="/social/mass.svg" height={35} width={35} />
 
 </Link>
@@ -78,7 +78,7 @@ const Social = () => {
         <DialogActions>
           
           <Button onClick={handleClose} autoFocus>
-            okay
+            close
           </Button>
         </DialogActions>
       </Dialog>
