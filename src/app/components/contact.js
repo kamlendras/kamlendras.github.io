@@ -16,18 +16,7 @@ import You from './you';
 import Message from './message';
 
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="white" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://ksingh.is-a.dev/">
-        ksingh
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+
 
 const steps = ['You', 'Message'];
 
@@ -56,20 +45,15 @@ export default function Checkout() {
   };
 
   return (
-    <div>
+    <div id="contact">
 
-      <AppBar color="success" position="relative">
-        <Toolbar>
-       
-          <Typography variant="h6" color="inherit" noWrap>
-            Contact Me
-          </Typography>
-        </Toolbar>
-      </AppBar>
+     
 
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
-         
+        <Typography component="h1" variant="h4" align="center">
+            Contact Me
+          </Typography>
           <Stepper  activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
             {steps.map((label) => (
               <Step key={label}>
@@ -107,7 +91,7 @@ export default function Checkout() {
             </React.Fragment>
           )}
         </Paper>
-        <Copyright />
+      
       </Container>
     </div>
   );

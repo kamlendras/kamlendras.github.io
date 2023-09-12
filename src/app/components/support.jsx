@@ -14,7 +14,7 @@ const style = {
 };
 export default function Types() {
   return (
-<div>
+<div id="support">
    
     <div className={styles.one}>
       

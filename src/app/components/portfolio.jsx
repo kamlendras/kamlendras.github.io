@@ -1,12 +1,10 @@
 "use client"
 import React   from "react";
-import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
@@ -22,22 +20,13 @@ const style = {
 };
 export default function Types() {
   return (
-    <div>
-     <AppBar position="relative" color="success">
-        <Toolbar>
-          {/* <CameraIcon sx={{ mr: 2 }} /> */}
-          <Typography variant="h6" color="inherit" noWrap>
-          Portfolio
-          </Typography>
-        </Toolbar>
-      </AppBar>
+    <div id="portfolio">
+    
     <div className={styles.two}>
      
      
      
-      {/* <Typography variant="h5" gutterBottom>
-        Email : KSinghofficial@proton.me
-      </Typography> */}
+ 
  
       <Typography color="white" variant="body1" gutterBottom>
        Hi there,<br/>

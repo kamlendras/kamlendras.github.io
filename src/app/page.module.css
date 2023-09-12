@@ -233,3 +233,7 @@
     transform: rotate(0deg);
   }
 }
+
+.zindex{
+  z-index: 100000000000;
+}

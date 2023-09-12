@@ -73,18 +73,7 @@ IconContainer.propTypes = {
 const style = {
   height: 300,
 };
-function Copyright() {
-  return (
-    <Typography variant="body2"  align="center">
-      {"Copyright © "}
-      <Linkmui color="inherit" href="https://ksingh.is-a.dev/">
-        ksingh
-      </Linkmui>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -103,8 +92,8 @@ export default function Album() {
     setOpen(false);
   };
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <CssBaseline />
+    <ThemeProvider theme={defaultTheme} id="hire">
+      {/* <CssBaseline /> */}
       <AppBar position="relative" color="success">
         <Toolbar>
           {/* <CameraIcon sx={{ mr: 2 }} /> */}
@@ -117,7 +106,7 @@ export default function Album() {
         {/* Hero unit */}
         <Box
           sx={{
-            bgcolor: "background.paper",
+            // bgcolor: "background.paper",
             pt: 8,
             pb: 6,
           }}
@@ -127,16 +116,30 @@ export default function Album() {
               component="h1"
               variant="h2"
               align="center"
-              color="text.primary"
+              color="white"
               gutterBottom
+
+              sx={{
+                background: "linear-gradient(to right bottom, #0d47a1, #00c853)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                color: "transparent"
+                }}
             >
               The Best Dev On The Planet.
             </Typography>
             <Typography
               variant="h5"
               align="center"
-              color="text.secondary"
+              color="white"
               paragraph
+
+              sx={{
+                background: "linear-gradient(to right bottom, #9e9e9e, #9e9e9e)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                color: "transparent"
+                }}
             >
               "As after viewing my Portfolio if ur still not hireing me then ur
               in Big Loss..." ~ ksingh
@@ -255,7 +258,7 @@ export default function Album() {
         <Lottie animationData={oct} loop={true} style={style} />
       </main>
 
-      <Copyright style={{ colour: "#ffffff" }} />
+     
       <Dialog
         open={open}
         onClose={handleClose}
