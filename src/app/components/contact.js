@@ -73,7 +73,9 @@ export default function Checkout() {
                 Thank you for your Message <img src="/cele.svg" height={29} width={29} />.
               </Typography>
               <Typography variant="subtitle1">
-               I will replay you as soon as I read your Message :)
+               {/* I will replay you as soon as I read your Message :) */}
+               Note : Your message is not sent because i have not connected backend server till now.<br/>
+               kindly email at ksinghofficial@proton.me
               </Typography>
             </React.Fragment>
           ) : (

@@ -34,6 +34,8 @@ import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfi
 
 import Typed from 'react-typed';
 import { Inter } from "next/font/google";
+
+
 const inter = Inter({
   weight: "900",
   subsets: ["latin"],
@@ -47,6 +49,15 @@ const theme = createTheme({
   typography: {
     // In Chinese and Japanese the characters are usually larger,
     // so a smaller fontsize may be appropriate.
+
+    sm: {
+      fontSize: 5,
+    lineHeight: 5,
+    letterSpacing: 0.32,
+    useNextVariants: true,
+    suppressDeprecationWarnings: true,
+    },
+
     fontSize: 25,
     lineHeight: 1.5,
     letterSpacing: 0.32,
@@ -55,8 +66,10 @@ const theme = createTheme({
     h6: {
       fontWeight: 900,
     },
+  
   },
 });
+
 const customIcons = {
   1: {
     icon: <SentimentVeryDissatisfiedIcon color="error" />,
@@ -129,7 +142,9 @@ export default function Album() {
           <Container
           // maxWidth="sm"
           >
-            <ThemeProvider theme={theme}>
+            <ThemeProvider 
+            theme={theme}
+            >
               <Typography
                 component="h1"
                 variant="h2"
@@ -145,7 +160,7 @@ export default function Album() {
                   color: "transparent",
                 }}
               >
-                The Best Dev On The Planet.
+                The Best Dev On<br/> The Planet.
               </Typography>
             </ThemeProvider>
             <Typography

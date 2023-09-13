@@ -16,7 +16,7 @@ export default function Page() {
       <Contact />
       <Support />
       <Portfolio />
-      <Copyright />
+      <Copyright color="#ffffff"/>
     </div>
   );
 }
