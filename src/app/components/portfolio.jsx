@@ -15,9 +15,17 @@ import Container from '@mui/material/Container';
 import Lottie from "lottie-react";
 import bird from "./bird.json";
 import Link from 'next/link'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
 const style = {
   height: 200,
 };
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 export default function Types() {
   return (
     <div id="portfolio">
@@ -26,11 +34,12 @@ export default function Types() {
      
      
      
- 
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
  
       <Typography color="white" variant="body1" gutterBottom>
        Hi there,<br/>
-       I am founder of codnap and SFI.
+       I am maintainer of codnap and SFI.
        <ul><li>
        <MLink href="https://github.com/codnap" underline="always">
           {" "}
@@ -69,7 +78,7 @@ export default function Types() {
           codnap
         </Typography>
         <Typography>
-        A website made with Nextjs 13.4 + MUI.
+        Open & Decentralized platform made with Nextjs 13.4 + MUI.
         </Typography>
       </CardContent>
       <CardActions>
@@ -99,7 +108,7 @@ export default function Types() {
         STREETSFOODS (SFI)
         </Typography>
         <Typography>
-         An open source food delivery website made with nextjs 13.4 + MUI.
+        Open & Decentralized food delivery platform made with nextjs 13.4 + MUI.
         </Typography>
       </CardContent>
       <CardActions>
@@ -132,7 +141,7 @@ export default function Types() {
         STREETSFOODS (SFI)
         </Typography>
         <Typography>
-          App for (Android & IOS) made with React Native + Paper.
+          App for Android & IOS made with React Native + Paper.
         </Typography>
       </CardContent>
       <CardActions>
@@ -160,7 +169,7 @@ export default function Types() {
         codnap
         </Typography>
         <Typography>
-          App for (Android & IOS) made with React Native + Paper.
+          App for Android & IOS made with React Native + Paper.
         </Typography>
       </CardContent>
       <CardActions>
@@ -174,7 +183,7 @@ export default function Types() {
 
 
 </Container>
-   
+</ThemeProvider>
     <Lottie animationData={bird} loop={true} style={style} />
     </div>
     </div>

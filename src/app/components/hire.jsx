@@ -31,6 +31,8 @@ import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied
 import SentimentSatisfiedIcon from "@mui/icons-material/SentimentSatisfied";
 import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAltOutlined";
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
+
+import Typed from 'react-typed';
 import { Inter } from "next/font/google";
 const inter = Inter({
   weight: "900",
@@ -106,8 +108,14 @@ export default function Album() {
   const handleClose = () => {
     setOpen(false);
   };
+
+  const darkTheme = createTheme({
+    palette: {
+      mode: 'dark',
+    },
+  }); 
   return (
-    <ThemeProvider theme={defaultTheme} id="hire">
+    <ThemeProvider theme={darkTheme} id="hire">
       <Toolbar />
       <main>
         {/* Hero unit */}
@@ -151,10 +159,40 @@ export default function Album() {
                 backgroundClip: "text",
                 WebkitBackgroundClip: "text",
                 color: "transparent",
+             
               }}
             >
-              "As after viewing my Portfolio if ur still not hireing me then ur
-              in Big Loss..." ~ ksingh
+            
+
+
+              <div>
+                <Typed
+                     strings={[
+                      'I am maintainer of codnap and SFI.',
+                      'I know JavaScript.',
+                      'I know TypeScript.',
+                      'I know Reactjs.',
+                      'I know Nextjs.',
+                      'I know Material UI.',
+                      'I know React Native.',
+                      'I know Expo.',
+                      'I know Paper.',
+                      'I know Arch Linux.',
+                      'I know Nix OS.',
+                      'I know Debian 12.',
+                      'I know Sway.',
+                      'I know i3.',
+                      'I know dwm.',
+                      'I know awesome.',
+                    ]}
+                    typeSpeed={40}
+                    loop
+                />
+                <br/>
+
+               
+                 
+            </div>
             </Typography>
            
             </Container>
@@ -211,7 +249,7 @@ export default function Album() {
                       <Typography>I'm available on freelancer.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button color="success" size="small">
+                      <Button  size="small">
                         Hire Me
                       </Button>
                       {/* <Button size="small">Chat With Me</Button> */}
@@ -243,7 +281,7 @@ export default function Album() {
                       <Typography>I'm available on Fiverr.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button color="success" size="small">
+                      <Button  size="small">
                         Hire Me
                       </Button>
                       {/* <Button size="small">Chat With Me</Button> */}
@@ -276,7 +314,7 @@ export default function Album() {
                       <Typography>I'm available on UpWork.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button color="success" size="small">
+                      <Button  size="small">
                         Hire Me
                       </Button>
                       {/* <Button size="small">Chat With Me</Button> */}

@@ -14,7 +14,12 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import You from './you';
 import Message from './message';
-
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 
 
@@ -47,7 +52,8 @@ export default function Checkout() {
   return (
     <div id="contact">
 <Toolbar/>
-     
+<ThemeProvider theme={darkTheme}>
+      <CssBaseline />
 
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
@@ -93,6 +99,7 @@ export default function Checkout() {
         </Paper>
       
       </Container>
+      </ThemeProvider>
     </div>
   );
 }
