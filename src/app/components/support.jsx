@@ -1,5 +1,5 @@
 "use client";
-import fish from "./fish.json";
+import dragon from "./dragon.json";
 import Lottie from "lottie-react";
 import * as React from "react";
 import Box from "@mui/material/Box";
@@ -11,7 +11,7 @@ import styles from "../styles/support.module.css";
 import Grid from "@mui/material/Grid";
 import Toolbar from '@mui/material/Toolbar';
 const style = {
-  height: 230,
+  width: 800,
 };
 export default function Types() {
   return (
@@ -113,7 +113,7 @@ export default function Types() {
         </Grid>
       </Grid>
 
-      <Lottie animationData={fish} loop={true} style={style} />
+      {/* <Lottie animationData={dragon} loop={true} style={style} /> */}
       </div>
     </div>
   );

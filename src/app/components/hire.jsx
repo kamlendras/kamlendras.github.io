@@ -16,7 +16,7 @@ import Linkmui from "@mui/material/Link";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Link from "next/link";
 import Lottie from "lottie-react";
-import oct from "./oct.json";
+import bluebird from "./bluebird.json";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
@@ -224,9 +224,11 @@ export default function Album() {
         <div id="hirenow">
           <Toolbar />
           <Container sx={{ py: 8 }} maxWidth="md">
+            
             <Grid container spacing={4}>
               <Grid item xs={12} sm={6} md={4}>
                 <Link href="https://www.freelancer.com/u/ksinghofficial">
+               
                   <Card
                     sx={{
                       height: "100%",
@@ -242,6 +244,7 @@ export default function Album() {
                       }}
                       image="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcustomercarecontacts.com%2Fwp-content%2Fuploads%2F2017%2F07%2Ffreelancer-logo.jpg&f=1&nofb=1&ipt=a46861a67f5bab20a0261300d1cd8817b9916618fed7cf745bc6aa8c95d5729b&ipo=images"
                     />
+                     
                     <CardContent sx={{ flexGrow: 1 }}>
                       <Typography gutterBottom variant="h5" component="h2">
                         Freelancer.
@@ -325,9 +328,11 @@ export default function Album() {
             </Grid>
           </Container>
         </div>
-        <Lottie animationData={oct} loop={true} style={style} />
+      
       </main>
-
+      <Link href="https://www.freelancer.com/u/ksinghofficial">
+      <Lottie animationData={bluebird} loop={true} style={style} />
+      </Link>
       <Dialog
         open={open}
         onClose={handleClose}

@@ -37,9 +37,11 @@ export default function Types() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
  
-      <Typography color="white" variant="body1" gutterBottom>
+      <Typography color="white" variant="h4"color="white" gutterBottom>
        Hi there,<br/>
-       I am maintainer of codnap and SFI.
+       </Typography><Typography variant="h6" color="white" gutterBottom>
+       I am maintainer of codnap and SFI. </Typography>
+       <Typography variant="body1" color="white" gutterBottom>
        <ul><li>
        <MLink href="https://github.com/codnap" underline="always">
           {" "}
