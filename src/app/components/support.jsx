@@ -59,6 +59,22 @@ export default function Types() {
         </MLink>
       </Typography>
       <Typography variant="h4" color="white" gutterBottom>
+        Join Mastodon
+      </Typography>
+      <Typography color="white" variant="body1" gutterBottom>
+        You can join mastodon page of{" "}
+        <MLink href="https://fosstodon.org/@codnap" underline="always">
+          {" "}
+          @codnap@fosstodon.org{" "}
+        </MLink>{" "}
+        <br />
+        You can join mastodon page of{" "}
+        <MLink href="https://fosstodon.org/@SFI" underline="always">
+          {" "}
+          @SFI@fosstodon.org{" "}
+        </MLink>
+      </Typography>
+      <Typography variant="h4" color="white" gutterBottom>
         Donate
       </Typography>
 
