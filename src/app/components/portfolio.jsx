@@ -21,7 +21,7 @@ const style = {
 export default function Types() {
   return (
     <div id="portfolio">
-    
+    <Toolbar/>
     <div className={styles.two}>
      
      

@@ -46,7 +46,7 @@ export default function Checkout() {
 
   return (
     <div id="contact">
-
+<Toolbar/>
      
 
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>

@@ -93,15 +93,8 @@ export default function Album() {
   };
   return (
     <ThemeProvider theme={defaultTheme} id="hire">
-      {/* <CssBaseline /> */}
-      <AppBar position="relative" color="success">
-        <Toolbar>
-          {/* <CameraIcon sx={{ mr: 2 }} /> */}
-          <Typography variant="h6" color="inherit" noWrap>
-            Hire Me
-          </Typography>
-        </Toolbar>
-      </AppBar>
+    
+ <Toolbar/>
       <main>
         {/* Hero unit */}
         <Box
@@ -158,7 +151,9 @@ export default function Album() {
             </Stack>
           </Container>
         </Box>
+      
         <div id="hirenow">
+        <Toolbar/>
           <Container sx={{ py: 8 }} maxWidth="md">
             <Grid container spacing={4}>
               <Grid item xs={12} sm={6} md={4}>
