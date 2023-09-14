@@ -31,15 +31,24 @@ import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied
 import SentimentSatisfiedIcon from "@mui/icons-material/SentimentSatisfied";
 import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAltOutlined";
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
+import localFont from "next/font/local";
+import Typed from "react-typed";
+// import { Inter } from "/Inter";
+// const inter = localFont({ src: './Inter-Black.woff2',  weight: '900', })
 
-import Typed from 'react-typed';
-import { Inter } from "next/font/google";
-
-
-const inter = Inter({
-  weight: "900",
-  subsets: ["latin"],
+const inter = localFont({
+  src: [
+    {
+      path: "./Inter-Black.woff2",
+      weight: "900",
+      style: "normal",
+    },
+  ],
 });
+// const inter = Inter({
+//   weight: "900",
+//   subsets: ["latin"],
+// });
 const StyledRating = styled(Rating)(({ theme }) => ({
   "& .MuiRating-iconEmpty .MuiSvgIcon-root": {
     color: theme.palette.action.disabled,
@@ -47,17 +56,6 @@ const StyledRating = styled(Rating)(({ theme }) => ({
 }));
 const theme = createTheme({
   typography: {
-    // In Chinese and Japanese the characters are usually larger,
-    // so a smaller fontsize may be appropriate.
-
-    sm: {
-      fontSize: 5,
-    lineHeight: 5,
-    letterSpacing: 0.32,
-    useNextVariants: true,
-    suppressDeprecationWarnings: true,
-    },
-
     fontSize: 25,
     lineHeight: 1.5,
     letterSpacing: 0.32,
@@ -66,7 +64,6 @@ const theme = createTheme({
     h6: {
       fontWeight: 900,
     },
-  
   },
 });
 
@@ -124,9 +121,9 @@ export default function Album() {
 
   const darkTheme = createTheme({
     palette: {
-      mode: 'dark',
+      mode: "dark",
     },
-  }); 
+  });
   return (
     <ThemeProvider theme={darkTheme} id="hire">
       <Toolbar />
@@ -142,9 +139,7 @@ export default function Album() {
           <Container
           // maxWidth="sm"
           >
-            <ThemeProvider 
-            theme={theme}
-            >
+            <ThemeProvider theme={theme}>
               <Typography
                 component="h1"
                 variant="h2"
@@ -160,7 +155,8 @@ export default function Album() {
                   color: "transparent",
                 }}
               >
-                The Best Dev On<br/> The Planet.
+                The Best Dev On
+                <br /> The Planet.
               </Typography>
             </ThemeProvider>
             <Typography
@@ -174,76 +170,60 @@ export default function Album() {
                 backgroundClip: "text",
                 WebkitBackgroundClip: "text",
                 color: "transparent",
-             
               }}
             >
-            
-
-
               <div>
                 <Typed
-                     strings={[
-                      'I am maintainer of codnap and SFI.',
-                      'I know JavaScript.',
-                      'I know TypeScript.',
-                      'I know Reactjs.',
-                      'I know Nextjs.',
-                      'I know Material UI.',
-                      'I know React Native.',
-                      'I know Expo.',
-                      'I know Paper.',
-                      'I know Arch Linux.',
-                      'I know Nix OS.',
-                      'I know Debian 12.',
-                      'I know Sway.',
-                      'I know i3.',
-                      'I know dwm.',
-                      'I know awesome.',
-                    ]}
-                    typeSpeed={40}
-                    loop
+                  strings={[
+                    "I am maintainer of codnap and SFI.",
+                    "I know JavaScript.",
+                    "I know TypeScript.",
+                    "I know Reactjs.",
+                    "I know Nextjs.",
+                    "I know Material UI.",
+                    "I know React Native.",
+                    "I know Expo.",
+                    "I know Paper.",
+                    "I know Arch Linux.",
+                    "I know Nix OS.",
+                    "I know Debian 12.",
+                    "I know Sway.",
+                    "I know i3.",
+                    "I know dwm.",
+                    "I know awesome.",
+                  ]}
+                  typeSpeed={40}
+                  loop
                 />
-                <br/>
-
-               
-                 
-            </div>
+                <br />
+              </div>
             </Typography>
-           
-            </Container>
+          </Container>
         </Box>
-            <div className="twobu">
-              <centre>
-                <Link href="#hirenow">
-                  <div class="buttons">
-                    <button class="btn-hover color-1">HIRE NOW</button>
-                  </div>
-                </Link>
-            
-            
-              
-                  <button
-                    class="glow-on-hover"
-                    onClick={handleClickOpen}
-                    type="button"
-                  >
-                    GIVE FEEDBACK
-                  </button>
-                  </centre>
-                  </div>
-               
-             
-          
-       
+        <div className="twobu">
+          <centre>
+            <Link href="#hirenow">
+              <div class="buttons">
+                <button class="btn-hover color-1">HIRE NOW</button>
+              </div>
+            </Link>
+
+            <button
+              class="glow-on-hover"
+              onClick={handleClickOpen}
+              type="button"
+            >
+              GIVE FEEDBACK
+            </button>
+          </centre>
+        </div>
 
         <div id="hirenow">
           <Toolbar />
           <Container sx={{ py: 8 }} maxWidth="md">
-            
             <Grid container spacing={4}>
               <Grid item xs={12} sm={6} md={4}>
                 <Link href="https://www.freelancer.com/u/ksinghofficial">
-               
                   <Card
                     sx={{
                       height: "100%",
@@ -259,7 +239,7 @@ export default function Album() {
                       }}
                       image="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcustomercarecontacts.com%2Fwp-content%2Fuploads%2F2017%2F07%2Ffreelancer-logo.jpg&f=1&nofb=1&ipt=a46861a67f5bab20a0261300d1cd8817b9916618fed7cf745bc6aa8c95d5729b&ipo=images"
                     />
-                     
+
                     <CardContent sx={{ flexGrow: 1 }}>
                       <Typography gutterBottom variant="h5" component="h2">
                         Freelancer.
@@ -267,9 +247,7 @@ export default function Album() {
                       <Typography>I'm available on freelancer.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button  size="small">
-                        Hire Me
-                      </Button>
+                      <Button size="small">Hire Me</Button>
                       {/* <Button size="small">Chat With Me</Button> */}
                     </CardActions>
                   </Card>
@@ -299,9 +277,7 @@ export default function Album() {
                       <Typography>I'm available on Fiverr.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button  size="small">
-                        Hire Me
-                      </Button>
+                      <Button size="small">Hire Me</Button>
                       {/* <Button size="small">Chat With Me</Button> */}
                     </CardActions>
                   </Card>
@@ -332,9 +308,7 @@ export default function Album() {
                       <Typography>I'm available on UpWork.</Typography>
                     </CardContent>
                     <CardActions>
-                      <Button  size="small">
-                        Hire Me
-                      </Button>
+                      <Button size="small">Hire Me</Button>
                       {/* <Button size="small">Chat With Me</Button> */}
                     </CardActions>
                   </Card>
@@ -343,10 +317,9 @@ export default function Album() {
             </Grid>
           </Container>
         </div>
-      
       </main>
       <Link href="https://www.freelancer.com/u/ksinghofficial">
-      <Lottie animationData={bluebird} loop={true} style={style} />
+        <Lottie animationData={bluebird} loop={true} style={style} />
       </Link>
       <Dialog
         open={open}

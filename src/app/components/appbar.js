@@ -38,6 +38,7 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+      <ThemeProvider theme={darkTheme}>
       <Typography variant="h6" sx={{ my: 2 }}>
         K Singh
       </Typography>
@@ -72,6 +73,7 @@ function DrawerAppBar(props) {
           </ListItem>
         </Link>
       </List>
+    </ThemeProvider>
     </Box>
   );
 

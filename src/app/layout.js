@@ -1,3 +1,4 @@
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Appbar from './components/appbar'
@@ -12,8 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
+      <body className={inter.className}>
+   
+
+        {children}
       <Appbar/>
+     
       {/* <ParticlesBackground/> */}
       </body>
     </html>
