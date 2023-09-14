@@ -1,5 +1,4 @@
 "use client";
-import dragon from "./dragon.json";
 import Lottie from "lottie-react";
 import * as React from "react";
 import Box from "@mui/material/Box";
