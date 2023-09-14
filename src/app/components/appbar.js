@@ -17,6 +17,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Social from "./social";
 import Link from "next/link";
+import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 const darkTheme = createTheme({
   palette: {
@@ -124,7 +125,7 @@ function DrawerAppBar(props) {
         </AppBar>
       </ThemeProvider>
       <nav>
-        <Drawer
+        <SwipeableDrawer
           container={container}
           variant="temporary"
           open={mobileOpen}
@@ -141,7 +142,7 @@ function DrawerAppBar(props) {
           }}
         >
           {drawer}
-        </Drawer>
+        </SwipeableDrawer>
       </nav>
     </Box>
   );

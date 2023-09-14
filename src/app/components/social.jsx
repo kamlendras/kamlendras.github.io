@@ -27,16 +27,17 @@ const Social = () => {
 
 </Link> */}
 
-  <Link 
-  onClick={handleClickOpen} className="link"
-   href="/">
-  
+  {/* <Link 
+  className="link"
+   href="/" legacyBehavior
+   > */}
+ <a href="mailto:ksinghofficial@proton.me?Subject=Hello%20User"  onClick={handleClickOpen}>
     <img src="/mail.svg" 
     height={35} 
     width={35} 
     />
-    
-</Link>
+    </a>
+{/* </Link> */}
 <Link href="https://matrix.to/#/@ksingh:matrix.org" className="link" >
 <img src="/social/matrix.svg" height={35} width={35} />
 

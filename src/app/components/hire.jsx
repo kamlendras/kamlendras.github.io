@@ -153,6 +153,11 @@ export default function Album() {
                   backgroundClip: "text",
                   WebkitBackgroundClip: "text",
                   color: "transparent",
+                  fontSize: '3rem',
+  '@media (min-width:600px)': {
+    fontSize: '7rem',
+  },
+
                 }}
               >
                 The Best Dev On
