@@ -125,7 +125,7 @@ export default function Album() {
     },
   });
   return (
-    <ThemeProvider theme={darkTheme} id="hire">
+    <ThemeProvider theme={darkTheme} id="hire" >
       <Toolbar />
       <main>
         {/* Hero unit */}
@@ -180,7 +180,7 @@ export default function Album() {
               <div>
                 <Typed
                   strings={[
-                    "I am maintainer of codnap and SFI.",
+                    "Maintainer of codnap and SFI.",
                     "I know JavaScript.",
                     "I know TypeScript.",
                     "I know Reactjs.",

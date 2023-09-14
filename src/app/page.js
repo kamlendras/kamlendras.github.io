@@ -7,12 +7,12 @@ import Portfolio from "./components/portfolio";
 import Copyright from "./components/copyright"
 export default function Page() {
   return (
-    <div className="zindex">
+    <>
       <Hire />
       <Contact />
       <Support />
       <Portfolio />
-      <Copyright color="#ffffff"/>
-    </div>
+      <Copyright color="#ffffff" />
+    </>
   );
 }
