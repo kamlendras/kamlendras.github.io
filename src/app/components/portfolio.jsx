@@ -64,7 +64,7 @@ export default function Types() {
 <Grid item xs={12} sm={6} md={6}>
   <Link href="https://codnap.github.io/">
     <Card
-      sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+      sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
       <CardMedia
         component="div"
@@ -94,7 +94,7 @@ export default function Types() {
 <Grid item xs={12} sm={6} md={6}>
 <Link href="https://streetsfoods.github.io/">
     <Card
-      sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+      sx={{  boxShadow: 3, height: '100%', display: 'flex', flexDirection: 'column' }}
     >
       <CardMedia
         component="div"
@@ -127,7 +127,7 @@ export default function Types() {
   <Grid item xs={12} sm={6} md={6}>
   <Link href="https://github.com/streetsfoods/streetsfoodsmobile">
     <Card
-      sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+      sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
       <CardMedia
         component="div"
@@ -155,7 +155,7 @@ export default function Types() {
   <Grid item xs={12} sm={6} md={6}>
   <Link href="https://github.com/codnap/codnapmobile">
     <Card
-      sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+      sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
       <CardMedia
         component="div"

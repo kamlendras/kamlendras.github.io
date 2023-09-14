@@ -23,7 +23,7 @@ const Social = () => {
         href="mailto:ksinghofficial@proton.me?Subject=Hello%20User"
         onClick={handleClickOpen}
       >
-        <img src="/mail.svg" height={35} width={35} />
+        <img src="/social//mail.svg" height={35} width={35} />
       </a>
 
       <Link href="https://matrix.to/#/@ksingh:matrix.org" >
