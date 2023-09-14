@@ -7,7 +7,6 @@ import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import Stack from "@mui/material/Stack";
 import MLink from "@mui/material/Link";
-import styles from "../styles/support.module.css";
 import Grid from "@mui/material/Grid";
 import Toolbar from '@mui/material/Toolbar';
 const style = {
@@ -17,7 +16,7 @@ export default function Types() {
   return (
 <div id="support">
 <Toolbar/>
-    <div className={styles.one}>
+    <div className="one">
       
       <Typography variant="h4"color="white" gutterBottom>
         Get Involved

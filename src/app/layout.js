@@ -2,7 +2,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Appbar from './components/appbar'
-// import ParticlesBackground from "./components/ParticlesBackground";
+import ParticlesBackground from "./components/ParticlesBackground";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         {children}
       <Appbar/>
      
-      {/* <ParticlesBackground/> */}
+      <ParticlesBackground/>
       </body>
     </html>
   )

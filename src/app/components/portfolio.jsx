@@ -9,7 +9,6 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import MLink from "@mui/material/Link";
-import styles from '../styles/support.module.css'
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Lottie from "lottie-react";
@@ -30,7 +29,7 @@ export default function Types() {
   return (
     <div id="portfolio">
     <Toolbar/>
-    <div className={styles.two}>
+    <div className="two">
      
      
      

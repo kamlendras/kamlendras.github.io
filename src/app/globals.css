@@ -245,3 +245,10 @@ a {
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+.one{
+  padding: 1rem;
+  
+}
+.two{
+  padding: 2rem;
+}
