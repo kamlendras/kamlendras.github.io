@@ -36,7 +36,7 @@ export default function Types() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
  
-      <Typography color="white" variant="h4"color="white" gutterBottom>
+      <Typography color="white" variant="h4"  gutterBottom>
        Hi there,<br/>
        </Typography><Typography variant="h6" color="white" gutterBottom>
        I am maintainer of codnap and SFI. </Typography>
