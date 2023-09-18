@@ -39,17 +39,17 @@ export default function Types() {
       <Typography color="white" variant="h4"  gutterBottom>
        Hi there,<br/>
        </Typography><Typography variant="h6" color="white" gutterBottom>
-       I am maintainer of codnap and SFI. </Typography>
+       I am maintainer of codefoss and Ueats. </Typography>
        <Typography variant="body1" color="white" gutterBottom>
        <ul><li>
        <MLink href="https://github.com/codnap" underline="always">
           {" "}
-          Github.com/codnap{" "}
+          Github.com/codefoss{" "}
         </MLink>{" "}</li>
         
         <li>  <MLink href="https://github.com/streetsfoods" underline="always">
           {" "}
-          Github.com/streetsfoods
+          Github.com/Ueats
         </MLink>{" "}</li> <li> 
         <MLink href="https://github.com/ksinghofficial" underline="always">
           {" "}
@@ -62,7 +62,7 @@ export default function Types() {
 
 <Grid container spacing={4}>
 <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://codnap.github.io/">
+  <Link href="https://codefoss.github.io/">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -76,7 +76,7 @@ export default function Types() {
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
-          codnap
+          codefoss
         </Typography>
         <Typography>
         Open & Decentralized platform made with Nextjs 13.4 + MUI.
@@ -84,7 +84,7 @@ export default function Types() {
       </CardContent>
       <CardActions>
       
-      <Link href="https://github.com/codnap/codnap.github.io">   <Button size="small">Source Code</Button></Link>
+      <Link href="https://github.com/codefoss/codefoss.github.io">   <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>
     </Card>
@@ -92,7 +92,7 @@ export default function Types() {
   </Link>
   </Grid>
 <Grid item xs={12} sm={6} md={6}>
-<Link href="https://streetsfoods.github.io/">
+<Link href="https://ueats.github.io/">
     <Card
       sx={{  boxShadow: 3, height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -106,7 +106,7 @@ export default function Types() {
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
-        STREETSFOODS (SFI)
+       Ueats
         </Typography>
         <Typography>
         Open & Decentralized food delivery platform made with nextjs 13.4 + MUI.
@@ -125,7 +125,7 @@ export default function Types() {
   
   
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://github.com/streetsfoods/streetsfoodsmobile">
+  <Link href="https://github.com/ueats/ueatsmobile">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -139,7 +139,7 @@ export default function Types() {
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
-        STREETSFOODS (SFI)
+       Ueats
         </Typography>
         <Typography>
           App for Android & IOS made with React Native + Paper.
@@ -153,7 +153,7 @@ export default function Types() {
     </Link>
   </Grid>
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://github.com/codnap/codnapmobile">
+  <Link href="https://github.com/codefoss/codefossmobile">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -167,7 +167,7 @@ export default function Types() {
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
-        codnap
+        codefoss
         </Typography>
         <Typography>
           App for Android & IOS made with React Native + Paper.

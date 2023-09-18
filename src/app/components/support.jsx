@@ -28,14 +28,14 @@ export default function Types() {
         you're interested in contributing, you can browse the issues or create a
         new one to discuss your feature idea. Every contribution is very
         welcome. You can contribute to one of my originations
-        <MLink href="https://github.com/codnap" underline="always">
+        <MLink href="https://github.com/codefoss" underline="always">
           {" "}
-          github.com/codnap{" "}
+          github.com/codefoss{" "}
         </MLink>{" "}
         and
         <MLink href="https://github.com/streetsfoods" underline="always">
           {" "}
-          github.com/streetsfoods
+          github.com/ueats
         </MLink>{" "}
         .
       </Typography>
@@ -45,15 +45,15 @@ export default function Types() {
       </Typography>
       <Typography color="white" variant="body1" gutterBottom>
         You can join matrix chat rooms of{" "}
-        <MLink href="https://matrix.to/#/#codnap:matrix.org" underline="always">
+        <MLink href="https://matrix.to/#/#codefoss:matrix.org" underline="always">
           {" "}
-          #codnap.matrix.org{" "}
+          #codefoss.matrix.org{" "}
         </MLink>{" "}
         <br />
         You can join matrix chat rooms of{" "}
-        <MLink href="https://matrix.to/#/#SFI:matrix.org" underline="always">
+        <MLink href="https://matrix.to/#/#ueats:matrix.org" underline="always">
           {" "}
-          #SFI.matrix.org{" "}
+          #ueats.matrix.org{" "}
         </MLink>
       </Typography>
       <Typography variant="h4" color="white" gutterBottom>
@@ -61,15 +61,15 @@ export default function Types() {
       </Typography>
       <Typography color="white" variant="body1" gutterBottom>
         You can join mastodon page of{" "}
-        <MLink href="https://fosstodon.org/@codnap" underline="always">
+        <MLink href="https://fosstodon.org/@codefoss" underline="always">
           {" "}
-          @codnap@fosstodon.org{" "}
+          @codefoss@fosstodon.org{" "}
         </MLink>{" "}
         <br />
         You can join mastodon page of{" "}
-        <MLink href="https://fosstodon.org/@SFI" underline="always">
+        <MLink href="https://fosstodon.org/@ueats" underline="always">
           {" "}
-          @SFI@fosstodon.org{" "}
+          @ueats@fosstodon.org{" "}
         </MLink>
       </Typography>
       <Typography variant="h4" color="white" gutterBottom>

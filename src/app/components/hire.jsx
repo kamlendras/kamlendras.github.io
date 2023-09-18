@@ -146,7 +146,7 @@ export default function Album() {
                 align="center"
                 color="white"
                 gutterBottom
-                className={inter.className}
+                className="headtitle"
                 sx={{
                   background:
                     "linear-gradient(to right bottom, #0d47a1, #00c853)",
@@ -180,7 +180,7 @@ export default function Album() {
               <div>
                 <Typed
                   strings={[
-                    "Maintainer of codnap and SFI.",
+                    "Maintainer of codefoss and Ueats.",
                     "I know JavaScript.",
                     "I know TypeScript.",
                     "I know Reactjs.",
