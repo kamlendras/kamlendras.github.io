@@ -82,7 +82,7 @@ export default function Types() {
       </Typography>
 
       <Grid container spacing={0}>
-        <Grid item xs={12} md={12} lg={3.2}>
+        <Grid item xs={12} sm={6} md={3.2} lg={3.2} paddingLeft={2}>
           <Link href="https://www.patreon.com/KSingh">
             <img
               src="/pat.png"
@@ -91,7 +91,7 @@ export default function Types() {
             />
           </Link>
         </Grid>
-        <Grid item xs={12} md={12} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3} paddingLeft={2}>
           <Link href="https://www.buymeacoffee.com/ksingh">
             <img
               src="bmc.svg"
@@ -100,7 +100,7 @@ export default function Types() {
             />
           </Link>
         </Grid>
-        <Grid item xs={12} md={12} lg={3.8}>
+        <Grid item xs={12} md={3.8} lg={3.8} paddingLeft={2}>
           <Link href="https://liberapay.com/KSingh">
             <img
               src="https://img.shields.io/badge/liberapay-donate-yellow.svg?style=for-the-badge"

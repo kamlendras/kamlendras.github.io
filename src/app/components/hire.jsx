@@ -33,22 +33,12 @@ import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAlt
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
 import localFont from "next/font/local";
 import Typed from "react-typed";
-// import { Inter } from "/Inter";
-// const inter = localFont({ src: './Inter-Black.woff2',  weight: '900', })
+import { Inter } from "next/font/google";
 
-const inter = localFont({
-  src: [
-    {
-      path: "./Inter-Black.woff2",
-      weight: "900",
-      style: "normal",
-    },
-  ],
+const inter = Inter({
+  weight: "900",
+  subsets: ["latin"],
 });
-// const inter = Inter({
-//   weight: "900",
-//   subsets: ["latin"],
-// });
 const StyledRating = styled(Rating)(({ theme }) => ({
   "& .MuiRating-iconEmpty .MuiSvgIcon-root": {
     color: theme.palette.action.disabled,
@@ -146,7 +136,7 @@ export default function Album() {
                 align="center"
                 color="white"
                 gutterBottom
-                className="headtitle"
+                className={inter.className}
                 sx={{
                   background:
                     "linear-gradient(to right bottom, #0d47a1, #00c853)",
