@@ -42,12 +42,12 @@ export default function Types() {
        I am maintainer of codefoss and Ueats. </Typography>
        <Typography variant="body1" color="white" gutterBottom>
        <ul><li>
-       <MLink href="https://github.com/codnap" underline="always">
+       <MLink href="https://github.com/codefoss" underline="always">
           {" "}
           Github.com/codefoss{" "}
         </MLink>{" "}</li>
         
-        <li>  <MLink href="https://github.com/streetsfoods" underline="always">
+        <li>  <MLink href="https://github.com/ueats" underline="always">
           {" "}
           Github.com/Ueats
         </MLink>{" "}</li> <li> 
@@ -113,7 +113,7 @@ export default function Types() {
         </Typography>
       </CardContent>
       <CardActions>
-      <Link href="https://github.com/streetsfoods/streetsfoods.github.io"> 
+      <Link href="https://github.com/ueats/ueats.github.io"> 
         <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>

@@ -33,7 +33,7 @@ export default function Types() {
           github.com/codefoss{" "}
         </MLink>{" "}
         and
-        <MLink href="https://github.com/streetsfoods" underline="always">
+        <MLink href="https://github.com/ueats" underline="always">
           {" "}
           github.com/ueats
         </MLink>{" "}
