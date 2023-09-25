@@ -28,9 +28,9 @@ export default function Types() {
         you're interested in contributing, you can browse the issues or create a
         new one to discuss your feature idea. Every contribution is very
         welcome. You can contribute to one of my originations
-        <MLink href="https://github.com/codefoss" underline="always">
+        <MLink href="https://github.com/FossTube" underline="always">
           {" "}
-          github.com/codefoss{" "}
+          github.com/FossTube{" "}
         </MLink>{" "}
         and
         <MLink href="https://github.com/ueats" underline="always">
@@ -45,9 +45,9 @@ export default function Types() {
       </Typography>
       <Typography color="white" variant="body1" gutterBottom>
         You can join matrix chat rooms of{" "}
-        <MLink href="https://matrix.to/#/#codefoss:matrix.org" underline="always">
+        <MLink href="https://matrix.to/#/#FossTube:matrix.org" underline="always">
           {" "}
-          #codefoss.matrix.org{" "}
+          #FossTube.matrix.org{" "}
         </MLink>{" "}
         <br />
         You can join matrix chat rooms of{" "}
@@ -61,9 +61,9 @@ export default function Types() {
       </Typography>
       <Typography color="white" variant="body1" gutterBottom>
         You can join mastodon page of{" "}
-        <MLink href="https://fosstodon.org/@codefoss" underline="always">
+        <MLink href="https://fosstodon.org/@FossTube" underline="always">
           {" "}
-          @codefoss@fosstodon.org{" "}
+          @FossTube@fosstodon.org{" "}
         </MLink>{" "}
         <br />
         You can join mastodon page of{" "}

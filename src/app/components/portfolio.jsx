@@ -39,12 +39,12 @@ export default function Types() {
       <Typography color="white" variant="h4"  gutterBottom>
        Hi there,<br/>
        </Typography><Typography variant="h6" color="white" gutterBottom>
-       I am maintainer of codefoss and Ueats. </Typography>
+       I am Founder & Maintainer of FossTube and Ueats. </Typography>
        <Typography variant="body1" color="white" gutterBottom>
        <ul><li>
-       <MLink href="https://github.com/codefoss" underline="always">
+       <MLink href="https://github.com/FossTube" underline="always">
           {" "}
-          Github.com/codefoss{" "}
+          Github.com/FossTube{" "}
         </MLink>{" "}</li>
         
         <li>  <MLink href="https://github.com/ueats" underline="always">
@@ -62,7 +62,7 @@ export default function Types() {
 
 <Grid container spacing={4}>
 <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://codefoss.github.io/">
+  <Link href="https://fosstube.vercel.app/">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -72,19 +72,19 @@ export default function Types() {
           // 16:9
           pt: '40.25%',
         }}
-        image="/codnap1.png"
+        image="/fosstubewhite.png"
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
-          codefoss
+          FossTube
         </Typography>
         <Typography>
-        Open & Decentralized platform made with Nextjs 13.4 + MUI.
+        Open & Decentralized platform made with Nextjs Latest + MUI.
         </Typography>
       </CardContent>
       <CardActions>
       
-      <Link href="https://github.com/codefoss/codefoss.github.io">   <Button size="small">Source Code</Button></Link>
+      <Link href="https://github.com/orgs/fosstube/repositories">   <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>
     </Card>
@@ -92,7 +92,7 @@ export default function Types() {
   </Link>
   </Grid>
 <Grid item xs={12} sm={6} md={6}>
-<Link href="https://ueats.github.io/">
+<Link href="https://ueats.vercel.app">
     <Card
       sx={{  boxShadow: 3, height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -109,11 +109,11 @@ export default function Types() {
        Ueats
         </Typography>
         <Typography>
-        Open & Decentralized food delivery platform made with nextjs 13.4 + MUI.
+        Open & Decentralized food delivery platform made with Nextjs Latest + MUI.
         </Typography>
       </CardContent>
       <CardActions>
-      <Link href="https://github.com/ueats/ueats.github.io"> 
+      <Link href="https://github.com/orgs/ueats/repositories"> 
         <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>
@@ -125,7 +125,7 @@ export default function Types() {
   
   
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://github.com/ueats/ueatsmobile">
+  <Link href="https://github.com/orgs/ueats/repositories">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -153,7 +153,7 @@ export default function Types() {
     </Link>
   </Grid>
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://github.com/codefoss/codefossmobile">
+  <Link href="https://github.com/orgs/fosstube/repositories">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -163,11 +163,11 @@ export default function Types() {
           // 16:9
           pt: '56.25%',
         }}
-        image="/codnap2.png"
+        image="/cfm.png"
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
-        codefoss
+        FossTube
         </Typography>
         <Typography>
           App for Android & IOS made with React Native + Paper.

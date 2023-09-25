@@ -140,7 +140,9 @@ a {
   width:100%;
   /* display: inline-flex; */
   display: flex;
+  align-content: center;
   justify-content: center;
+  white-space: nowrap;
 }
 .buttons {
   /* margin: 10%; */
@@ -149,18 +151,18 @@ a {
 }
 
 .btn-hover {
-  width: 200px;
-  font-size: 16px;
+  width: 12.5rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
-  height: 55px;
+  margin: 1.25rem;
+  height: 3.4375rem;
   text-align:center;
   border: none;
   background-size: 300% 100%;
 
-  border-radius: 50px;
+  border-radius: 3.125rem;
   moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -181,13 +183,13 @@ a {
 
 .btn-hover.color-1 {
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  box-shadow: 0 0.25rem 0.9375rem 0 rgba(49, 196, 190, 0.75);
 }
 
 
 .glow-on-hover {
-  width: 220px;
-  height: 50px;
+  width: 13.75rem;
+  height: 3.125rem;
   border: none;
   outline: none;
   color: #fff;
@@ -195,7 +197,7 @@ a {
   cursor: pointer;
   position: relative;
   z-index: 0;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   display: inline;
   
 }
@@ -204,17 +206,17 @@ a {
   content: '';
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
-  top: -2px;
-  left:-2px;
+  top: -0.125rem;
+  left:-0.125rem;
   background-size: 400%;
   z-index: -1;
-  filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
+  filter: blur(0.3125rem);
+  width: calc(100% + 0.25rem);
+  height: calc(100% + 0.25rem);
   animation: glowing 20s linear infinite;
   opacity: 0;
   transition: opacity .3s ease-in-out;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .glow-on-hover:active {
@@ -238,7 +240,7 @@ a {
   background: #111;
   left: 0;
   top: 0;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 @keyframes glowing {

@@ -115,7 +115,7 @@ export default function Album() {
     },
   });
   return (
-    <ThemeProvider theme={darkTheme} id="hire" >
+    <ThemeProvider theme={darkTheme} id="hire">
       <Toolbar />
       <main>
         {/* Hero unit */}
@@ -136,22 +136,22 @@ export default function Album() {
                 align="center"
                 color="white"
                 gutterBottom
-                className={inter.className}
                 sx={{
                   background:
                     "linear-gradient(to right bottom, #0d47a1, #00c853)",
                   backgroundClip: "text",
                   WebkitBackgroundClip: "text",
                   color: "transparent",
-                  fontSize: '3rem',
-  '@media (min-width:600px)': {
-    fontSize: '7rem',
-  },
-
+                  fontSize: "3rem",
+                  "@media (min-width:600px)": {
+                    fontSize: "7rem",
+                  },
                 }}
               >
-                The Best Dev On
-                <br /> The Planet.
+                <h4 className={inter.className}>
+                  The Best Dev On
+                  <br /> The Planet.
+                </h4>
               </Typography>
             </ThemeProvider>
             <Typography
@@ -170,7 +170,7 @@ export default function Album() {
               <div>
                 <Typed
                   strings={[
-                    "Maintainer of codefoss and Ueats.",
+                    "Founder & Maintainer of FossTube and Ueats.",
                     "I know JavaScript.",
                     "I know TypeScript.",
                     "I know Reactjs.",
