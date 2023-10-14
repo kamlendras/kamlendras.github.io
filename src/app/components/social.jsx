@@ -46,7 +46,7 @@ const Social = () => {
         <DialogTitle id="alert-dialog-title">{"Email"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            ksinghproproton.me
+            ksinghpro@proton.me
           </DialogContentText>
         </DialogContent>
         <DialogActions>
