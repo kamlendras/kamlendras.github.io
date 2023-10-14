@@ -20,7 +20,7 @@ const Social = () => {
   return (
     <Stack direction="row" spacing={2}>
       <a
-        href="mailto:ksinghofficial@proton.me?Subject=Hello%20User"
+        href="mailto:ksinghpro@proton.me?Subject=Hello%20User"
         onClick={handleClickOpen}
       >
         <img src="/social//mail.svg" height={35} width={35} />
@@ -33,7 +33,7 @@ const Social = () => {
         <img src="/social/mass.svg" height={35} width={35} />
       </Link>
 
-      <Link href="https://www.github.com/ksinghofficial/" >
+      <Link href="https://www.github.com/KSinghPro/" >
         <img src="/social/githubwhite.svg" height={35} width={35} />
       </Link>
 
@@ -46,7 +46,7 @@ const Social = () => {
         <DialogTitle id="alert-dialog-title">{"Email"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            ksinghofficial@proton.me
+            ksinghproproton.me
           </DialogContentText>
         </DialogContent>
         <DialogActions>
