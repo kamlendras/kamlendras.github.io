@@ -51,9 +51,9 @@ export default function Types() {
           {" "}
           Github.com/Ueats
         </MLink>{" "}</li> <li> 
-        <MLink href="https://github.com/ksinghofficial" underline="always">
+        <MLink href="https://github.com/KSinghPro" underline="always">
           {" "}
-           Github.com/ksinghofficial
+           Github.com/KSinghPro
         </MLink>
         </li>
         </ul>
