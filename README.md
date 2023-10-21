@@ -1,6 +1,6 @@
 ### Personal website code
 
-🏔️ Getting started
+#🏔️ Getting started
 yarn / bun install / npm install
 
 This project is built with nextjs 13 + MUI5.
