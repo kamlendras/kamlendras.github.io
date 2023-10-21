@@ -2,7 +2,7 @@
 
 🏔️ Getting started
 
-yarn / bun install / npm install
+ bun install / npm install / yarn
 
 This project is built with nextjs 13 + MUI5.
 
