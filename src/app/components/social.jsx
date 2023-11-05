@@ -20,7 +20,7 @@ const Social = () => {
   return (
     <Stack direction="row" spacing={2}>
       <a
-        href="mailto:ksinghpro@proton.me?Subject=Hello%20User"
+        href="mailto:kamlendras@proton.me?Subject=Hello%20User"
         onClick={handleClickOpen}
       >
         <img src="/social//mail.svg" height={35} width={35} />
