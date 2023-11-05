@@ -7,7 +7,7 @@ function Copy() {
   return (
     <Typography variant="body2" color="#ffffff" align="center">
       {" AGPL-3.0 LICENSED "}
-      <Linkmui color="#ffffff" href="https://ksingh.is-a.dev/">
+      <Linkmui color="#ffffff" href="/">
         kamlendras
       </Linkmui>{" "}
       {new Date().getFullYear()}
