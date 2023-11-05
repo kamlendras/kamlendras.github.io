@@ -250,7 +250,7 @@ export default function Album() {
                 </Link>
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
-                <Link href="https://www.fiverr.com/KSinghPro">
+                <Link href="https://www.fiverr.com/kamlendras">
                   <Card
                     sx={{
                       height: "100%",
@@ -316,7 +316,7 @@ export default function Album() {
           </Container>
         </div>
       </main>
-      <Link href="https://www.freelancer.com/u/ksinghofficial">
+      <Link href="https://www.freelancer.com/u/kamlendra_s">
         <Lottie animationData={bluebird} loop={true} style={style} />
       </Link>
       <Dialog
