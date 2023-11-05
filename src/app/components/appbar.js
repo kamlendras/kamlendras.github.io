@@ -41,7 +41,7 @@ function DrawerAppBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <ThemeProvider theme={darkTheme}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        K Singh
+        Kamlendra Singh
       </Typography>
       <Divider />
       <List>
@@ -101,7 +101,7 @@ function DrawerAppBar(props) {
               component="div"
               sx={{ flexGrow: 1, display: {sm: "block" } }}
             >
-              K Singh
+              Kamlendra Singh
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               <Link href="#hire">
