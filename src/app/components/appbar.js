@@ -41,7 +41,7 @@ function DrawerAppBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <ThemeProvider theme={darkTheme}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        Kamlendra Singh
+      kamlendras
       </Typography>
       <Divider />
       <List>
