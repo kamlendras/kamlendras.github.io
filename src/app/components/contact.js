@@ -75,7 +75,7 @@ export default function Checkout() {
               <Typography variant="subtitle1">
                {/* I will replay you as soon as I read your Message :) */}
                Note : Your message is not sent because i have not connected backend server till now.<br/>
-               kindly email at ksinghofficial@proton.me
+               kindly email at kamlendras@proton.me
               </Typography>
             </React.Fragment>
           ) : (
