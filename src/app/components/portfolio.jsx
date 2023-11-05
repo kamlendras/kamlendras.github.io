@@ -39,21 +39,18 @@ export default function Types() {
       <Typography color="white" variant="h4"  gutterBottom>
        Hi there,<br/>
        </Typography><Typography variant="h6" color="white" gutterBottom>
-       I am Founder & Maintainer of FossTube and Ueats. </Typography>
+       I'm creator of universal-org, FossTube | UEats. </Typography>
        <Typography variant="body1" color="white" gutterBottom>
        <ul><li>
-       <MLink href="https://github.com/FossTube" underline="always">
+       <MLink href="https://github.com/universal-org" underline="always">
           {" "}
-          Github.com/FossTube{" "}
+          Github.com/universal-org{" "}
         </MLink>{" "}</li>
         
-        <li>  <MLink href="https://github.com/ueats" underline="always">
+         <li> 
+        <MLink href="https://github.com/kamlendras" underline="always">
           {" "}
-          Github.com/Ueats
-        </MLink>{" "}</li> <li> 
-        <MLink href="https://github.com/KSinghPro" underline="always">
-          {" "}
-           Github.com/KSinghPro
+           Github.com/kamlendras
         </MLink>
         </li>
         </ul>
