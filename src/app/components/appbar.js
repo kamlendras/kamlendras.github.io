@@ -97,7 +97,7 @@ function DrawerAppBar(props) {
               <MenuIcon />
             </IconButton>
             <Typography
-              variant="h6"
+              variant="subtitle2"
               component="div"
               sx={{ flexGrow: 1, display: {sm: "block" } }}
             >
