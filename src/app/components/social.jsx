@@ -29,7 +29,9 @@ const Social = () => {
       <Link href="https://matrix.to/#/@kamlendras:matrix.org" >
         <img src="/social/matrix.svg" height={35} width={35} />
       </Link>
-    
+    <Link href="https://www.linkedin.com/in/kamlendras" >
+        <img src="/social/linkedin.svg" height={35} width={35} />
+      </Link>
 
       <Link href="https://www.github.com/kamlendras/" >
         <img src="/social/githubwhite.svg" height={35} width={35} />
