@@ -101,7 +101,7 @@ function DrawerAppBar(props) {
               component="div"
               sx={{ flexGrow: 1, display: {sm: "block" } }}
             >
-              Kamlendra Singh
+              kamlendras
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               <Link href="#hire">
