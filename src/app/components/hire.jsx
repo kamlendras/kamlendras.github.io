@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import AppBar from "@mui/material/AppBar";
+Iimport AppBar from "@mui/material/AppBar";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -170,7 +170,7 @@ export default function Album() {
               <div>
                 <Typed
                   strings={[
-                    "Founder & Maintainer of FossTube and Ueats.",
+                    "I'm creator of universal-org, fosstube | ueats",
                     "I know JavaScript.",
                     "I know TypeScript.",
                     "I know Reactjs.",
@@ -218,7 +218,7 @@ export default function Album() {
           <Container sx={{ py: 8 }} maxWidth="md">
             <Grid container spacing={4}>
               <Grid item xs={12} sm={6} md={4}>
-                <Link href="https://www.freelancer.com/u/KSinghPro">
+                <Link href="https://www.freelancer.com/u/kamlendra_s">
                   <Card
                     sx={{
                       height: "100%",
