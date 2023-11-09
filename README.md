@@ -1,6 +1,6 @@
 ### Personal website code
 
-🏔️ Getting started
+🚩 Getting started
 
  bun install / npm install / yarn
 
