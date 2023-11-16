@@ -1,12 +1,11 @@
 {
-  "homepage": "https://ksingh.is-a.dev",
-  "name": "ksingh",
+  "homepage": "https://kamlendras.github.io",
+  "name": "kamlendras",
   "main": "index.js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "sir": "next dev -H 192.168.42.2",
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
@@ -22,9 +21,9 @@
     "@mui/material": "^5.14.7",
     "gh-pages": "^6.0.0",
     "lottie-react": "^2.4.0",
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "react-particles": "^2.12.2",
     "react-typed": "^1.2.0",
     "tsparticles": "^2.12.0"
