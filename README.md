@@ -2,11 +2,11 @@
 
 🚩 Getting started
 
- bun install / npm install / yarn
+buninstall / npm install / yarn
 
-This project is built with nextjs 13 + MUI5.
-
-Some other packages included are
-Lottie React
+🏔️ This project is built with 
+• nextjs 14
+• MUI5
+• Lottie React
 
 if you find any issue or wanna add something PRs are always welcome.
