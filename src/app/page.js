@@ -4,7 +4,7 @@ import Hire from "./components/hire";
 import Contact from "./components/contact";
 import Support from "./components/support";
 import Portfolio from "./components/portfolio";
-import Copyright from "./components/copyright"
+import Copyright from "./components/copyright";
 export default function Page() {
   return (
     <>
