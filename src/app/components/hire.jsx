@@ -185,8 +185,8 @@ export default function Album() {
             </Typography>
           </Container>
         </Box>
-        <div className="twobu">
-          <centre>
+        <section className="twobu">
+          <div>
             <Link href="#hirenow">
               <div class="buttons">
                 <button class="btn-hover color-1">HIRE NOW</button>
@@ -200,8 +200,8 @@ export default function Album() {
             >
               GIVE FEEDBACK
             </button>
-          </centre>
-        </div>
+          </div>
+        </section>
 
         <div id="hirenow">
           <Toolbar />
