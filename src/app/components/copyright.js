@@ -1,5 +1,5 @@
 "use client";
-import React  from "react";
+import React from "react";
 import Typography from "@mui/material/Typography";
 import Linkmui from "@mui/material/Link";
 
@@ -17,4 +17,3 @@ function Copy() {
 }
 
 export default Copy;
-
