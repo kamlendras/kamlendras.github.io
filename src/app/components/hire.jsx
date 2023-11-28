@@ -1,18 +1,14 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import AppBar from "@mui/material/AppBar";
+import React from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import CssBaseline from "@mui/material/CssBaseline";
 import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import Linkmui from "@mui/material/Link";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Link from "next/link";
 import Lottie from "lottie-react";
@@ -31,7 +27,6 @@ import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied
 import SentimentSatisfiedIcon from "@mui/icons-material/SentimentSatisfied";
 import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAltOutlined";
 import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
-import localFont from "next/font/local";
 import Typed from "react-typed";
 import { Inter } from "next/font/google";
 
@@ -92,11 +87,6 @@ IconContainer.propTypes = {
 const style = {
   height: 300,
 };
-
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-// TODO remove, this demo shouldn't need to reset the theme.
-const defaultTheme = createTheme();
 
 export default function Album() {
   const [open, setOpen] = React.useState(false);
@@ -195,8 +185,8 @@ export default function Album() {
             </Typography>
           </Container>
         </Box>
-        <div className="twobu">
-          <centre>
+        <section className="twobu">
+          <div>
             <Link href="#hirenow">
               <div class="buttons">
                 <button class="btn-hover color-1">HIRE NOW</button>
@@ -210,8 +200,8 @@ export default function Album() {
             >
               GIVE FEEDBACK
             </button>
-          </centre>
-        </div>
+          </div>
+        </section>
 
         <div id="hirenow">
           <Toolbar />

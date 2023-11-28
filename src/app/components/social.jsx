@@ -26,14 +26,14 @@ const Social = () => {
         <img src="/social//mail.svg" height={35} width={35} />
       </a>
 
-      <Link href="https://matrix.to/#/@kamlendras:matrix.org" >
+      <Link href="https://matrix.to/#/@kamlendras:matrix.org">
         <img src="/social/matrix.svg" height={35} width={35} />
       </Link>
-    <Link href="https://www.linkedin.com/in/kamlendras" >
+      <Link href="https://www.linkedin.com/in/kamlendras">
         <img src="/social/linkedin.svg" height={35} width={35} />
       </Link>
 
-      <Link href="https://www.github.com/kamlendras/" >
+      <Link href="https://www.github.com/kamlendras/">
         <img src="/social/githubwhite.svg" height={35} width={35} />
       </Link>
 
@@ -46,7 +46,7 @@ const Social = () => {
         <DialogTitle id="alert-dialog-title">{"Email"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-           kamlendras@proton.me
+            kamlendras@proton.me
           </DialogContentText>
         </DialogContent>
         <DialogActions>
