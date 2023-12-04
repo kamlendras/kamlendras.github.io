@@ -1,9 +1,9 @@
-import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
-import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
+import * as React from "react";
+import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
+import TextField from "@mui/material/TextField";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
 
 export default function Message() {
   return (
@@ -12,8 +12,8 @@ export default function Message() {
         Message
       </Typography>
       <Grid item xs={12}>
-      <TextField
-      color="success"
+        <TextField
+          color="success"
           id="standard-multiline-static"
           label="Type Something Here."
           multiline
@@ -22,7 +22,7 @@ export default function Message() {
           // defaultValue="Default Value"
           variant="standard"
         />
-        </Grid>
+      </Grid>
     </React.Fragment>
   );
 }

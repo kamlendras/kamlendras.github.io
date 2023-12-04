@@ -17,7 +17,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Social from "./social";
 import Link from "next/link";
-import SwipeableDrawer from '@mui/material/SwipeableDrawer';
+import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 const darkTheme = createTheme({
   palette: {
@@ -40,41 +40,41 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <ThemeProvider theme={darkTheme}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-      kamlendras
-      </Typography>
-      <Divider />
-      <List>
-        <Link href="#hire">
-          <ListItem disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText>Hire me</ListItemText>
-            </ListItemButton>
-          </ListItem>
-        </Link>
-        <Link href="#contact">
-          <ListItem disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText>Contact me</ListItemText>
-            </ListItemButton>
-          </ListItem>
-        </Link>
-        <Link href="#support">
-          <ListItem disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText>Support me</ListItemText>
-            </ListItemButton>
-          </ListItem>
-        </Link>
-        <Link href="#portfolio">
-          <ListItem disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText>My Portfolio</ListItemText>
-            </ListItemButton>
-          </ListItem>
-        </Link>
-      </List>
-    </ThemeProvider>
+        <Typography variant="h6" sx={{ my: 2 }}>
+          kamlendras
+        </Typography>
+        <Divider />
+        <List>
+          <Link href="#hire">
+            <ListItem disablePadding>
+              <ListItemButton sx={{ textAlign: "center" }}>
+                <ListItemText>Hire me</ListItemText>
+              </ListItemButton>
+            </ListItem>
+          </Link>
+          <Link href="#contact">
+            <ListItem disablePadding>
+              <ListItemButton sx={{ textAlign: "center" }}>
+                <ListItemText>Contact me</ListItemText>
+              </ListItemButton>
+            </ListItem>
+          </Link>
+          <Link href="#support">
+            <ListItem disablePadding>
+              <ListItemButton sx={{ textAlign: "center" }}>
+                <ListItemText>Support me</ListItemText>
+              </ListItemButton>
+            </ListItem>
+          </Link>
+          <Link href="#portfolio">
+            <ListItem disablePadding>
+              <ListItemButton sx={{ textAlign: "center" }}>
+                <ListItemText>My Portfolio</ListItemText>
+              </ListItemButton>
+            </ListItem>
+          </Link>
+        </List>
+      </ThemeProvider>
     </Box>
   );
 
@@ -99,7 +99,7 @@ function DrawerAppBar(props) {
             <Typography
               variant="subtitle2"
               component="div"
-              sx={{ flexGrow: 1, display: {sm: "block" } }}
+              sx={{ flexGrow: 1, display: { sm: "block" } }}
             >
               kamlendras
             </Typography>
