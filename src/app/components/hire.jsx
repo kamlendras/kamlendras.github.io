@@ -196,7 +196,7 @@ export default function Album() {
           </Container>
         </Box>
         <div className="twobu">
-          <center>
+          <div>
             <Link href="#hirenow">
               <div class="buttons">
                 <button class="btn-hover color-1">HIRE NOW</button>
@@ -210,7 +210,7 @@ export default function Album() {
             >
               GIVE FEEDBACK
             </button>
-          </center>
+          </div>
         </div>
 
         <div id="hirenow">
