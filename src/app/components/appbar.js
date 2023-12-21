@@ -59,7 +59,7 @@ function DrawerAppBar(props) {
               </ListItemButton>
             </ListItem>
           </Link>
-          
+
           <Link href="#projects">
             <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
