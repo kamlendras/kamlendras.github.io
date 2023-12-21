@@ -27,31 +27,31 @@ export default function Types() {
         changes, help is always welcome. The more is done the better it gets! If
         you're interested in contributing, you can browse the issues or create a
         new one to discuss your feature idea. Every contribution is very
-        welcome. You can contribute to one of my originations
-        <MLink href="https://github.com/universal-org" underline="always">
+        welcome. You can contribute to one of my projects
+        <MLink href="https://github.com/fosstube" underline="always">
           {" "}
-          github.com/universal-org{" "}
+          github.com/kamlendras{" "}
         </MLink>.
       </Typography>
 
       <Typography variant="h4" color="white" gutterBottom>
-        Join Matrix Rooms
+        Matrix
       </Typography>
       <Typography color="white" variant="body1" gutterBottom>
-        You can join matrix chat rooms of{" "}
-        <MLink href="https://matrix.to/#/#universaldev:matrix.org" underline="always">
+        You can reach me at{" "}
+        <MLink href="https://matrix.to/#/kamlendras:matrix.org" underline="always">
           {" "}
-          #UniversalDev.matrix.org{" "}
+          kamlendras:matrix.org{" "}
         </MLink>{" "}
         <br />
-        You can join matrix chat rooms of{" "}
+    
         
       </Typography>
       <Typography variant="h4" color="white" gutterBottom>
-        Join Mastodon
+        Mastodon
       </Typography>
       <Typography color="white" variant="body1" gutterBottom>
-        You can join mastodon page of{" "}
+        You can follow mastodon page of{" "}
         <MLink href="https://fosstodon.org/@universal" underline="always">
           {" "}
           @universal@fosstodon.org{" "}
