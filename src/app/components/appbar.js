@@ -45,10 +45,10 @@ function DrawerAppBar(props) {
         </Typography>
         <Divider />
         <List>
-          <Link href="#hire">
+          <Link href="#support">
             <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
-                <ListItemText>Hire me</ListItemText>
+                <ListItemText>Donate</ListItemText>
               </ListItemButton>
             </ListItem>
           </Link>
@@ -59,17 +59,11 @@ function DrawerAppBar(props) {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="#support">
+          
+          <Link href="#projects">
             <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
-                <ListItemText>Support me</ListItemText>
-              </ListItemButton>
-            </ListItem>
-          </Link>
-          <Link href="#portfolio">
-            <ListItem disablePadding>
-              <ListItemButton sx={{ textAlign: "center" }}>
-                <ListItemText>My Portfolio</ListItemText>
+                <ListItemText>projects</ListItemText>
               </ListItemButton>
             </ListItem>
           </Link>
