@@ -199,7 +199,7 @@ export default function Album() {
           <div>
             <Link href="#hirenow">
               <div class="buttons">
-                <button class="btn-hover color-1">HIRE NOW</button>
+                <button class="btn-hover color-1">Donate</button>
               </div>
             </Link>
 
@@ -213,112 +213,9 @@ export default function Album() {
           </div>
         </div>
 
-        <div id="hirenow">
-          <Toolbar />
-          <Container sx={{ py: 8 }} maxWidth="md">
-            <Grid container spacing={4}>
-              <Grid item xs={12} sm={6} md={4}>
-                <Link href="https://www.freelancer.com/u/kamlendra_s">
-                  <Card
-                    sx={{
-                      height: "100%",
-                      display: "flex",
-                      flexDirection: "column",
-                      boxShadow: 3,
-                    }}
-                  >
-                    <CardMedia
-                      component="div"
-                      sx={{
-                        // 16:9
-                        pt: "40.25%",
-                      }}
-                      image="./freelancer.jpg"
-                    />
-
-                    <CardContent sx={{ flexGrow: 1 }}>
-                      <Typography gutterBottom variant="h5" component="h2">
-                        Freelancer.
-                      </Typography>
-                      <Typography>I'm available on freelancer.</Typography>
-                    </CardContent>
-                    <CardActions>
-                      <Button size="small">Hire Me</Button>
-                      {/* <Button size="small">Chat With Me</Button> */}
-                    </CardActions>
-                  </Card>
-                </Link>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Link href="https://www.fiverr.com/kamlendras">
-                  <Card
-                    sx={{
-                      height: "100%",
-                      display: "flex",
-                      flexDirection: "column",
-                      boxShadow: 3,
-                    }}
-                  >
-                    <CardMedia
-                      component="div"
-                      sx={{
-                        // 16:9
-                        pt: "40.25%",
-                      }}
-                      image="./fiverr.jpg"
-                    />
-                    <CardContent sx={{ flexGrow: 1 }}>
-                      <Typography gutterBottom variant="h5" component="h2">
-                        Fiverr.
-                      </Typography>
-                      <Typography>I'm available on Fiverr.</Typography>
-                    </CardContent>
-                    <CardActions>
-                      <Button size="small">Hire Me</Button>
-                      {/* <Button size="small">Chat With Me</Button> */}
-                    </CardActions>
-                  </Card>
-                </Link>
-              </Grid>
-
-              <Grid item xs={12} sm={6} md={4}>
-                <Link href="https://www.upwork.com/freelancers/~012f635da79c04b0f1">
-                  <Card
-                    sx={{
-                      height: "100%",
-                      display: "flex",
-                      flexDirection: "column",
-                      boxShadow: 3,
-                    }}
-                  >
-                    <CardMedia
-                      component="div"
-                      sx={{
-                        // 16:9
-                        pt: "40%",
-                      }}
-                      image="./upwork.jpg"
-                    />
-                    <CardContent sx={{ flexGrow: 1 }}>
-                      <Typography gutterBottom variant="h5" component="h2">
-                        UpWork
-                      </Typography>
-                      <Typography>I'm available on UpWork.</Typography>
-                    </CardContent>
-                    <CardActions>
-                      <Button size="small">Hire Me</Button>
-                      {/* <Button size="small">Chat With Me</Button> */}
-                    </CardActions>
-                  </Card>
-                </Link>
-              </Grid>
-            </Grid>
-          </Container>
-        </div>
+       
       </main>
-      <Link href="https://www.freelancer.com/u/kamlendra_s">
-        <Lottie animationData={bluebird} loop={true} style={style} />
-      </Link>
+      
       <Dialog
         open={open}
         onClose={handleClose}
