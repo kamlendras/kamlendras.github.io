@@ -39,14 +39,10 @@ export default function Types() {
       <Typography color="white" variant="h4"  gutterBottom>
        Hi there,<br/>
        </Typography><Typography variant="h6" color="white" gutterBottom>
-       I'm creator of universal-org, FossTube | UEats. </Typography>
+       I'm creator of fosstube | ueats. </Typography>
        <Typography variant="body1" color="white" gutterBottom>
-       <ul><li>
-       <MLink href="https://github.com/universal-org" underline="always">
-          {" "}
-          Github.com/universal-org{" "}
-        </MLink>{" "}</li>
-        
+       <ul>
+         
          <li> 
         <MLink href="https://github.com/kamlendras" underline="always">
           {" "}
@@ -59,7 +55,7 @@ export default function Types() {
 
 <Grid container spacing={4}>
 <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://fosstube.vercel.app/">
+  <Link href="https://fosstube.web.app/">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -81,7 +77,7 @@ export default function Types() {
       </CardContent>
       <CardActions>
       
-      <Link href="https://github.com/orgs/fosstube/repositories">   <Button size="small">Source Code</Button></Link>
+      <Link href="https://github.com/kamlendras/fosstube/">   <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>
     </Card>
@@ -110,7 +106,7 @@ export default function Types() {
         </Typography>
       </CardContent>
       <CardActions>
-      <Link href="https://github.com/orgs/ueats/repositories"> 
+      <Link href="https://github.com/kamlendras/ueats"> 
         <Button size="small">Source Code</Button></Link>
         <Button size="small">visit</Button>
       </CardActions>
@@ -122,7 +118,7 @@ export default function Types() {
   
   
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://github.com/orgs/ueats/repositories">
+  <Link href="https://github.com/kamlendras/ueats/">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
@@ -150,7 +146,7 @@ export default function Types() {
     </Link>
   </Grid>
   <Grid item xs={12} sm={6} md={6}>
-  <Link href="https://github.com/orgs/fosstube/repositories">
+  <Link href="https://github.com/kamlendras/fosstube/">
     <Card
       sx={{  boxShadow: 3,height: '100%', display: 'flex', flexDirection: 'column' }}
     >
